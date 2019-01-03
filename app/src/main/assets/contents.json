@@ -1,0 +1,427 @@
+{
+  "android_play_store_link": "",
+  "ios_app_store_link": "",
+  "sticker_packs": [
+    {
+      "identifier": "1",
+      "name": "Clash Royale",
+      "publisher": "Nikunj Rathod",
+      "tray_image_file": "tray_goblin.png",
+      "publisher_email": "nikunjrathod3011@gmail.com",
+      "publisher_website": "www.nikunjprathod.me",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "Angry_Giant.webp",
+          "emojis": [
+            "☕",
+            "🙂"
+          ]
+        },
+        {
+          "image_file": "Angry_King.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "Angry_Princess.webp",
+          "emojis": [
+            "😆",
+            "😂"
+          ]
+        },
+        {
+          "image_file": "anti.webp",
+          "emojis": [
+            "😩",
+            "😰"
+          ]
+        },
+        {
+          "image_file": "Bow_Princess.webp",
+          "emojis": [
+            "😭",
+            "💧"
+          ]
+        },
+        {
+          "image_file": "Confused_Goblin.webp",
+          "emojis": [
+            "😍",
+            "♥"
+          ]
+        },
+        {
+          "image_file": "Crying_King.webp",
+          "emojis": [
+            "💔",
+            "👎"
+          ]
+        },
+        {
+          "image_file": "Dab_Wizard.webp",
+          "emojis": [
+            "💔",
+            "👎"
+          ]
+        },
+        {
+          "image_file": "Dagger_Goblin.webp",
+          "emojis": [
+            "💔",
+            "👎"
+          ]
+        },
+        {
+          "image_file": "Darkness_Wizard.webp",
+          "emojis": [
+            "💔",
+            "👎"
+          ]
+        },
+        {
+          "image_file": "Deal_With_It_Goblin.webp",
+          "emojis": [
+            "💔",
+            "👎"
+          ]
+        },
+        {
+          "image_file": "Eating_Giant.webp",
+          "emojis": [
+            "💔",
+            "👎"
+          ]
+        },
+        {
+          "image_file": "Eye_Twitch_Goblin.webp",
+          "emojis": [
+            "💔",
+            "👎"
+          ]
+        },
+
+        {
+          "image_file": "Facepalm_Goblin.webp",
+          "emojis": [
+            "💔",
+            "👎"
+          ]
+        },
+        {
+          "image_file": "Flame_Wizard.webp",
+          "emojis": [
+            "💔",
+            "👎"
+          ]
+        },
+        {
+          "image_file": "Grin_Princess.webp",
+          "emojis": [
+            "💔",
+            "👎"
+          ]
+        },
+        {
+          "image_file": "Hammer_Hog.webp",
+          "emojis": [
+            "💔",
+            "👎"
+          ]
+        },
+        {
+          "image_file": "Happy_Goblin.webp",
+          "emojis": [
+            "💔",
+            "👎"
+          ]
+        },
+        {
+          "image_file": "Happy_Hoggy.webp",
+          "emojis": [
+            "💔",
+            "👎"
+          ]
+        },
+        {
+          "image_file": "Head_Skeleton.webp",
+          "emojis": [
+            "💔",
+            "👎"
+          ]
+        },
+        {
+          "image_file": "Helmet_Hoggy.webp",
+          "emojis": [
+            "💔",
+            "👎"
+          ]
+        },
+        {
+          "image_file": "Idea_Ewiz.webp",
+          "emojis": [
+            "💔",
+            "👎"
+          ]
+        },
+        {
+          "image_file": "Idea_Skeleton.webp",
+          "emojis": [
+            "💔",
+            "👎"
+          ]
+        },
+
+        {
+          "image_file": "Kiss_Goblin.webp",
+          "emojis": [
+            "💔",
+            "👎"
+          ]
+        },
+        {
+          "image_file": "Kiss_Hog.webp",
+          "emojis": [
+            "💔",
+            "👎"
+          ]
+        },
+        {
+          "image_file": "Kiss_Princess.webp",
+          "emojis": [
+            "💔",
+            "👎"
+          ]
+        },
+        {
+          "image_file": "Laugh_Barbarian.webp",
+          "emojis": [
+            "💔",
+            "👎"
+          ]
+        },
+        {
+          "image_file": "Crying_Skeleton.webp",
+          "emojis": [
+            "😍",
+            "💑"
+          ]
+        }
+      ]
+    },
+
+    {
+      "identifier": "2",
+      "name": "Clash Royale2",
+      "publisher": "Nikunj Rathod",
+      "tray_image_file": "tray_goblin.png",
+      "publisher_email": "nikunjrathod3011@gmail.com",
+      "publisher_website": "www.nikunjprathod.me",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "Laughing_Goblin.webp",
+          "emojis": [
+            "☕",
+            "🙂"
+          ]
+        },
+        {
+          "image_file": "Laughing_King.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "Love_Skeleton.webp",
+          "emojis": [
+            "😆",
+            "😂"
+          ]
+        },
+        {
+          "image_file": "Muscle_Goblin.webp",
+          "emojis": [
+            "😩",
+            "😰"
+          ]
+        },
+        {
+          "image_file": "Nail_Biter_Goblin.webp",
+          "emojis": [
+            "😭",
+            "💧"
+          ]
+        },
+        {
+          "image_file": "Peace_Goblin.webp",
+          "emojis": [
+            "😍",
+            "♥"
+          ]
+        },
+        {
+          "image_file": "Peace_Princess.webp",
+          "emojis": [
+            "💔",
+            "👎"
+          ]
+        },
+        {
+          "image_file": "Pick_Barbarian.webp",
+          "emojis": [
+            "💔",
+            "👎"
+          ]
+        },
+        {
+          "image_file": "Roar_Barbarian.webp",
+          "emojis": [
+            "💔",
+            "👎"
+          ]
+        },
+        {
+          "image_file": "Laugh_Ewiz.webp",
+          "emojis": [
+            "💔",
+            "👎"
+          ]
+        },
+        {
+          "image_file": "Scream_Hog.webp",
+          "emojis": [
+            "💔",
+            "👎"
+          ]
+        },
+        {
+          "image_file": "Scream_Hoggy.webp",
+          "emojis": [
+            "💔",
+            "👎"
+          ]
+        },
+        {
+          "image_file": "Shocked_Ewiz.webp",
+          "emojis": [
+            "💔",
+            "👎"
+          ]
+        },
+        {
+          "image_file": "Shrug_Wizard.webp",
+          "emojis": [
+            "💔",
+            "👎"
+          ]
+        },
+        {
+          "image_file": "Sleep_Hoggy.webp",
+          "emojis": [
+            "💔",
+            "👎"
+          ]
+        },
+        {
+          "image_file": "Smash_Giant.webp",
+          "emojis": [
+            "💔",
+            "👎"
+          ]
+        },
+        {
+          "image_file": "Surrender_Goblin.webp",
+          "emojis": [
+            "💔",
+            "👎"
+          ]
+        },
+        {
+          "image_file": "Sword_Barbarian.webp",
+          "emojis": [
+            "💔",
+            "👎"
+          ]
+        },
+        {
+          "image_file": "Think_Hog.webp",
+          "emojis": [
+            "💔",
+            "👎"
+          ]
+        },
+        {
+          "image_file": "This_Is_Fine_Goblin.webp",
+          "emojis": [
+            "💔",
+            "👎"
+          ]
+        },
+        {
+          "image_file": "Thumbs-Up_Ewiz.webp",
+          "emojis": [
+            "💔",
+            "👎"
+          ]
+        },
+        {
+          "image_file": "Thumbs-Up_Giant.webp",
+          "emojis": [
+            "💔",
+            "👎"
+          ]
+        },
+        {
+          "image_file": "Thumbs-Up_Goblin.webp",
+          "emojis": [
+            "💔",
+            "👎"
+          ]
+        },
+        {
+          "image_file": "Thumbs-Up_King.webp",
+          "emojis": [
+            "💔",
+            "👎"
+          ]
+        },
+        {
+          "image_file": "Thumbs-Up_Princess.webp",
+          "emojis": [
+            "💔",
+            "👎"
+          ]
+        },
+        {
+          "image_file": "Tongue_Goblin.webp",
+          "emojis": [
+            "💔",
+            "👎"
+          ]
+        },
+        {
+          "image_file": "Whistling_Princess.webp",
+          "emojis": [
+            "💔",
+            "👎"
+          ]
+        },
+
+        {
+          "image_file": "Yawn_Princess.webp",
+          "emojis": [
+            "💔",
+            "👎"
+          ]
+        }
+      ]
+    }
+    ]
+}
+
