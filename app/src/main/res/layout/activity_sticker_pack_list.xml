@@ -7,6 +7,31 @@
     tools:context=".StickerPackListActivity"
     tools:showIn="@layout/activity_sticker_pack_list">
 
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:id="@+id/error_message" />
+
+    <LinearLayout
+        android:id="@+id/sas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/sticker_pack_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
     <com.google.android.gms.ads.AdView
         android:id="@+id/adView"
         android:layout_width="wrap_content"
@@ -21,16 +46,4 @@
         <!--        ads:adUnitId="ca-app-pub-6942923344194754/7375592130 - mine
             ca-app-pub-3940256099942544/6300978111 -not mine">-->
     </com.google.android.gms.ads.AdView>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:padding="16dp"
-        android:textColor="@android:color/holo_red_dark"
-        android:id="@+id/error_message" />
-
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/sticker_pack_list"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
