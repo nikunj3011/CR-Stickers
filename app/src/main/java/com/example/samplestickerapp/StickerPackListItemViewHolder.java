@@ -8,11 +8,13 @@
 
 package com.example.samplestickerapp;
 
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
+import com.google.android.gms.ads.AdView;
 
 public class StickerPackListItemViewHolder extends RecyclerView.ViewHolder {
 
@@ -22,7 +24,7 @@ public class StickerPackListItemViewHolder extends RecyclerView.ViewHolder {
     TextView filesizeView;
     ImageView addButton;
     LinearLayout imageRowView;
-
+    AdView adView;
     StickerPackListItemViewHolder(final View itemView) {
         super(itemView);
         container = itemView;
@@ -31,5 +33,7 @@ public class StickerPackListItemViewHolder extends RecyclerView.ViewHolder {
         filesizeView = itemView.findViewById(R.id.sticker_pack_filesize);
         addButton = itemView.findViewById(R.id.add_button_on_list);
         imageRowView = itemView.findViewById(R.id.sticker_packs_list_item_image_list);
+
+        adView = itemView.findViewById(R.id.adView);
     }
 }

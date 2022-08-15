@@ -2,7 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.samplestickerapp">
-
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
     <application
         android:allowBackup="false"
         android:fullBackupContent="false"
@@ -11,8 +13,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
-        tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".EntryActivity">
+        tools:ignore="GoogleAppIndexingWarning"
+        android:name="androidx.multidex.MultiDexApplication">
+        <activity android:name=".EntryActivity"
+            android:exported= "true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -38,6 +42,17 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.samplestickerapp.StickerPackDetailsActivity" />
         </activity>
+
+<!--        <meta-data-->
+<!--            android:name="com.google.android.gms.ads.APPLICATION_ID"-->
+<!--            android:value="ca-app-pub-6942923344194754~8327019994"/> - mine
+            android:value="ca-app-pub-3940256099942544~3347511713"/> -default
+
+-->
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-6942923344194754~8327019994"/>
 
         <provider
             android:name=".StickerContentProvider"
