@@ -17,8 +17,8 @@
 
     <LinearLayout
         android:id="@+id/sas"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_marginLeft="8dp"
         android:layout_marginStart="8dp"
 
@@ -37,7 +37,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:adSize="BANNER"
-        app:adUnitId="ca-app-pub-6942923344194754/7375592130"
+        app:adUnitId="ca-app-pub-8299128249632072/4958311775"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"

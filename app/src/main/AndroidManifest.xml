@@ -52,7 +52,7 @@
 
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-6942923344194754~8327019994"/>
+            android:value="ca-app-pub-8299128249632072~5248534930"/>
 
         <provider
             android:name=".StickerContentProvider"
