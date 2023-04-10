@@ -13,8 +13,8 @@ android {
         applicationId "com.nikunj.ClashRoyaleStickers"
         minSdkVersion 19
         targetSdkVersion 32
-        versionCode 6
-        versionName "6"
+        versionCode 7
+        versionName "7"
         testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
         def contentProviderAuthority = applicationId + ".stickercontentprovider"
         // Creates a placeholder property to use in the manifest.
