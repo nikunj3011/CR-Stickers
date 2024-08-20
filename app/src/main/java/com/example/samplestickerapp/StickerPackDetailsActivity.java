@@ -65,7 +65,9 @@ public class StickerPackDetailsActivity extends BaseActivity {
     private View divider;
     private WhiteListCheckAsyncTask whiteListCheckAsyncTask;
     private InterstitialAd mInterstitialAd;
+    private AdRequest adRequest;
 
+    private String InterAd = "ca-app-pub-8299128249632072/3113326183";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -102,9 +104,8 @@ public class StickerPackDetailsActivity extends BaseActivity {
             @Override
             public void onInitializationComplete(InitializationStatus initializationStatus) {}
         });
-        AdRequest adRequest = new AdRequest.Builder().build();
-
-        InterstitialAd.load(this,"ca-app-pub-8299128249632072/3113326183", adRequest,
+        adRequest = new AdRequest.Builder().build();
+        InterstitialAd.load(this, InterAd, adRequest,
                 new InterstitialAdLoadCallback() {
                     @Override
                     public void onAdLoaded(@NonNull InterstitialAd interstitialAd) {
@@ -112,7 +113,6 @@ public class StickerPackDetailsActivity extends BaseActivity {
                         // an ad is loaded.
                         mInterstitialAd = interstitialAd;
                         Log.i(TAG, "onAdLoaded");
-                        showAd();
                     }
 
                     @Override
@@ -122,6 +122,12 @@ public class StickerPackDetailsActivity extends BaseActivity {
                         mInterstitialAd = null;
                     }
                 });
+    }
+
+    @Override
+    public void onBackPressed() {
+        showAd();
+        finish();
     }
 
     private void showAd() {

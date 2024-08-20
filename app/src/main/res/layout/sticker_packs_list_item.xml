@@ -17,17 +17,17 @@
         android:id="@+id/add_button_on_list"
         android:layout_width="48dp"
         android:layout_height="48dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
         android:background="?attr/selectableItemBackground"
         android:contentDescription="@string/add_button_content_description"
         android:scaleType="center"
         android:src="@drawable/sticker_3rdparty_add"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="invisible" />
 
     <LinearLayout
         android:id="@+id/sticker_pack_info"
