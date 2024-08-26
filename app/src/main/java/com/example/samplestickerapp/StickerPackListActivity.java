@@ -57,12 +57,12 @@ public class StickerPackListActivity extends BaseActivity {
 
         setContentView(R.layout.activity_sticker_pack_list);
         packRecyclerView = findViewById(R.id.sticker_pack_list);
-        imageView = findViewById(R.id.imageView);
-        textView = findViewById(R.id.textView);
 
         stickerPackList = getIntent().getParcelableArrayListExtra(EXTRA_STICKER_PACK_LIST_DATA);
         showStickerPackList(stickerPackList);
 
+        imageView = findViewById(R.id.imageView);
+        textView = findViewById(R.id.textView);
         imageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
