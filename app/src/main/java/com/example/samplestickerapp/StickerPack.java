@@ -28,6 +28,7 @@ class StickerPack implements Parcelable {
     private long totalSize;
     String androidPlayStoreLink;
     private boolean isWhitelisted;
+    private boolean isPremium;
 
     StickerPack(String identifier, String name, String publisher, String trayImageFile, String publisherEmail, String publisherWebsite, String privacyPolicyWebsite, String licenseAgreementWebsite) {
         this.identifier = identifier;
@@ -48,6 +49,14 @@ class StickerPack implements Parcelable {
         return isWhitelisted;
     }
 
+    void setIsPremium(boolean isPremium) {
+        this.isPremium = isPremium;
+    }
+
+    boolean getIsPremium() {
+        return isPremium;
+    }
+
     protected StickerPack(Parcel in) {
         identifier = in.readString();
         name = in.readString();
@@ -62,6 +71,7 @@ class StickerPack implements Parcelable {
         totalSize = in.readLong();
         androidPlayStoreLink = in.readString();
         isWhitelisted = in.readByte() != 0;
+        isPremium = in.readByte() != 0;
     }
 
     public static final Creator<StickerPack> CREATOR = new Creator<StickerPack>() {
@@ -120,5 +130,6 @@ class StickerPack implements Parcelable {
         dest.writeLong(totalSize);
         dest.writeString(androidPlayStoreLink);
         dest.writeByte((byte) (isWhitelisted ? 1 : 0));
+        dest.writeByte((byte) (isPremium ? 1 : 0));
     }
 }

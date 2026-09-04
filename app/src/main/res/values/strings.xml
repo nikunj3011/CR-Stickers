@@ -1,6 +1,7 @@
 <resources>
     <string name="banner_ad_unit_id" translatable="false">ca-app-pub-8299128249632072/4958311775</string>
     <string name="interstitial_ad_unit_id" translatable="false">ca-app-pub-8299128249632072/3113326183</string>
+    <string name="premium_product_id" translatable="false">premium_unlock</string>
     <string name="app_name">CR Stickers - WhatsApp</string>
     <string name="tray_image_content_description">Sticker Pack Tray Image</string>
     <string name="more_info_button">More info about sticker pack</string>
@@ -24,6 +25,14 @@
     <string name="home">Home</string>
     <string name="unable_to_open_link">Unable to open this link</string>
     <string name="pack_information_subtitle">Publisher details and useful links</string>
+    <string name="premium_pack">Premium</string>
+    <string name="unlock_premium">Unlock premium</string>
+    <string name="unlock_premium_price">Unlock premium · %1$s</string>
+    <string name="premium_unlocked">Premium sticker packs unlocked</string>
+    <string name="purchase_pending">Payment pending. Premium will unlock after Google Play confirms it.</string>
+    <string name="purchase_cancelled">Purchase cancelled</string>
+    <string name="billing_unavailable">Google Play billing is unavailable. Please try again.</string>
+    <string name="premium_lock_content_description">Unlock this premium sticker pack</string>
 </resources>
 
 

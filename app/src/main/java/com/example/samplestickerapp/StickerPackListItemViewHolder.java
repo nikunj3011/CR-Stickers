@@ -10,7 +10,6 @@ package com.example.samplestickerapp;
 
 import androidx.recyclerview.widget.RecyclerView;
 import android.view.View;
-import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -22,7 +21,7 @@ public class StickerPackListItemViewHolder extends RecyclerView.ViewHolder {
     TextView titleView;
     TextView publisherView;
     TextView filesizeView;
-    ImageView addButton;
+    TextView premiumBadge;
     LinearLayout imageRowView;
     AdView adView;
     StickerPackListItemViewHolder(final View itemView) {
@@ -31,7 +30,7 @@ public class StickerPackListItemViewHolder extends RecyclerView.ViewHolder {
         titleView = itemView.findViewById(R.id.sticker_pack_title);
         publisherView = itemView.findViewById(R.id.sticker_pack_publisher);
         filesizeView = itemView.findViewById(R.id.sticker_pack_filesize);
-        addButton = itemView.findViewById(R.id.add_button_on_list);
+        premiumBadge = itemView.findViewById(R.id.premium_badge);
         imageRowView = itemView.findViewById(R.id.sticker_packs_list_item_image_list);
 
         adView = itemView.findViewById(R.id.adView);

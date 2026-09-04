@@ -37,6 +37,8 @@ import static com.example.samplestickerapp.StickerContentProvider.STICKER_PACK_P
 
 public class StickerPackLoader {
 
+    private static final int FREE_PACK_LIMIT = 15;
+
     /**
      * Get the list of sticker packs for the sticker content provider
      */
@@ -103,6 +105,7 @@ public class StickerPackLoader {
             final StickerPack stickerPack = new StickerPack(identifier, name, publisher, trayImage, publisherEmail, publisherWebsite, privacyPolicyWebsite, licenseAgreementWebsite);
             stickerPack.setAndroidPlayStoreLink(androidPlayStoreLink);
             stickerPack.setIosAppStoreLink(iosAppLink);
+            stickerPack.setIsPremium(stickerPackList.size() >= FREE_PACK_LIMIT);
             stickerPackList.add(stickerPack);
         } while (cursor.moveToNext());
         return stickerPackList;

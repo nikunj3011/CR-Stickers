@@ -40,7 +40,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-public class StickerPackListActivity extends BaseActivity {
+public class StickerPackListActivity extends BaseActivity implements PremiumBillingManager.Listener {
     public static final String EXTRA_STICKER_PACK_LIST_DATA = "sticker_pack_list";
     private static final int STICKER_PREVIEW_DISPLAY_LIMIT = 5;
     private static final String TAG = "StickerPackList";
@@ -51,6 +51,7 @@ public class StickerPackListActivity extends BaseActivity {
     ArrayList<StickerPack> stickerPackList;
 
     private AdView mAdView;
+    private PremiumBillingManager premiumBillingManager;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -66,8 +67,11 @@ public class StickerPackListActivity extends BaseActivity {
             return windowInsets;
         });
         packRecyclerView = findViewById(R.id.sticker_pack_list);
+        premiumBillingManager = PremiumBillingManager.getInstance(this);
         stickerPackList = getIntent().getParcelableArrayListExtra(EXTRA_STICKER_PACK_LIST_DATA);
         showStickerPackList(stickerPackList);
+        premiumBillingManager.addListener(this);
+        premiumBillingManager.connectAndRestore();
 
         com.google.android.material.bottomnavigation.BottomNavigationView navigation =
                 findViewById(R.id.bottom_navigation);
@@ -120,6 +124,7 @@ public class StickerPackListActivity extends BaseActivity {
     @Override
     protected void onResume() {
         super.onResume();
+        premiumBillingManager.connectAndRestore();
         if (mAdView != null) {
             mAdView.resume();
         }
@@ -141,6 +146,9 @@ public class StickerPackListActivity extends BaseActivity {
 
     @Override
     protected void onDestroy() {
+        if (premiumBillingManager != null) {
+            premiumBillingManager.removeListener(this);
+        }
         if (mAdView != null) {
             mAdView.destroy();
             mAdView = null;
@@ -149,7 +157,7 @@ public class StickerPackListActivity extends BaseActivity {
     }
 
     private void showStickerPackList(List<StickerPack> stickerPackList) {
-        allStickerPacksListAdapter = new StickerPackListAdapter(stickerPackList, onAddButtonClickedListener);
+        allStickerPacksListAdapter = new StickerPackListAdapter(stickerPackList);
         packRecyclerView.setAdapter(allStickerPacksListAdapter);
         packLayoutManager = new LinearLayoutManager(this);
         packLayoutManager.setOrientation(LinearLayoutManager.VERTICAL);
@@ -163,18 +171,15 @@ public class StickerPackListActivity extends BaseActivity {
     }
 
 
-    private StickerPackListAdapter.OnAddButtonClickedListener onAddButtonClickedListener = pack -> {
-        Intent intent = new Intent();
-        intent.setAction("com.whatsapp.intent.action.ENABLE_STICKER_PACK");
-        intent.putExtra(StickerPackDetailsActivity.EXTRA_STICKER_PACK_ID, pack.identifier);
-        intent.putExtra(StickerPackDetailsActivity.EXTRA_STICKER_PACK_AUTHORITY, BuildConfig.CONTENT_PROVIDER_AUTHORITY);
-        intent.putExtra(StickerPackDetailsActivity.EXTRA_STICKER_PACK_NAME, pack.name);
-        try {
-            startActivityForResult(intent, StickerPackDetailsActivity.ADD_PACK);
-        } catch (ActivityNotFoundException e) {
-            Toast.makeText(StickerPackListActivity.this, R.string.error_adding_sticker_pack, Toast.LENGTH_LONG).show();
-        }
-    };
+    @Override
+    public void onPremiumStateChanged() {
+        // The main list only previews packs; entitlement actions live on the details screen.
+    }
+
+    @Override
+    public void onBillingMessage(int stringResource) {
+        Toast.makeText(this, stringResource, Toast.LENGTH_LONG).show();
+    }
 
     private void recalculateColumnCount() {
         final int previewSize = getResources().getDimensionPixelSize(R.dimen.sticker_pack_list_item_preview_image_size);

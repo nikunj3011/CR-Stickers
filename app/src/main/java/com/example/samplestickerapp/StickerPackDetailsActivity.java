@@ -32,16 +32,19 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdError;
+import com.google.android.gms.ads.FullScreenContentCallback;
 import com.google.android.gms.ads.LoadAdError;
 import com.google.android.gms.ads.MobileAds;
 import com.google.android.gms.ads.initialization.InitializationStatus;
 import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
 import com.google.android.gms.ads.interstitial.InterstitialAd;
 import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback;
+import com.google.android.material.button.MaterialButton;
 
 import java.lang.ref.WeakReference;
 
-public class StickerPackDetailsActivity extends BaseActivity {
+public class StickerPackDetailsActivity extends BaseActivity implements PremiumBillingManager.Listener {
 
     /**
      * Do not change below values of below 3 lines as this is also used by WhatsApp
@@ -63,13 +66,16 @@ public class StickerPackDetailsActivity extends BaseActivity {
     private GridLayoutManager layoutManager;
     private StickerPreviewAdapter stickerPreviewAdapter;
     private int numColumns;
-    private View addButton;
+    private MaterialButton addButton;
     private View alreadyAddedText;
     private StickerPack stickerPack;
     private View divider;
     private WhiteListCheckAsyncTask whiteListCheckAsyncTask;
     private InterstitialAd mInterstitialAd;
+    private boolean interstitialShown;
     private AdRequest adRequest;
+    private PremiumBillingManager premiumBillingManager;
+    private boolean isWhitelisted;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -95,6 +101,7 @@ public class StickerPackDetailsActivity extends BaseActivity {
         TextView packSizeTextView = findViewById(R.id.pack_size);
 
         addButton = findViewById(R.id.add_to_whatsapp_button);
+        premiumBillingManager = PremiumBillingManager.getInstance(this);
         alreadyAddedText = findViewById(R.id.already_added_text);
         layoutManager = new GridLayoutManager(this, 1);
         recyclerView = findViewById(R.id.sticker_list);
@@ -110,7 +117,9 @@ public class StickerPackDetailsActivity extends BaseActivity {
         packPublisherTextView.setText(stickerPack.publisher);
         packTrayIcon.setImageURI(StickerPackLoader.getStickerAssetUri(stickerPack.identifier, stickerPack.trayImageFile));
         packSizeTextView.setText(Formatter.formatShortFileSize(this, stickerPack.getTotalSize()));
-        addButton.setOnClickListener(v -> addStickerPackToWhatsApp(stickerPack.name));
+        addButton.setOnClickListener(v -> handlePrimaryAction());
+        premiumBillingManager.addListener(this);
+        premiumBillingManager.connectAndRestore();
         toolbar.setTitle(showUpButton ? R.string.title_activity_sticker_pack_details_multiple_pack : R.string.title_activity_sticker_pack_details_single_pack);
         MobileAds.initialize(this, new OnInitializationCompleteListener() {
             @Override
@@ -125,6 +134,7 @@ public class StickerPackDetailsActivity extends BaseActivity {
                         // an ad is loaded.
                         mInterstitialAd = interstitialAd;
                         Log.i(TAG, "onAdLoaded");
+                        showInterstitialOnce();
                     }
 
                     @Override
@@ -136,18 +146,29 @@ public class StickerPackDetailsActivity extends BaseActivity {
                 });
     }
 
-    @Override
-    public void onBackPressed() {
-        showAd();
-        finish();
-    }
-
-    private void showAd() {
-        if (mInterstitialAd != null) {
-            mInterstitialAd.show(this);
-        } else {
-            Log.d("TAG", "The interstitial ad wasn't ready yet.");
+    private void showInterstitialOnce() {
+        if (mInterstitialAd == null || interstitialShown || isFinishing() || isDestroyed()) {
+            return;
         }
+        interstitialShown = true;
+        mInterstitialAd.setFullScreenContentCallback(new FullScreenContentCallback() {
+            @Override
+            public void onAdDismissedFullScreenContent() {
+                mInterstitialAd = null;
+            }
+
+            @Override
+            public void onAdFailedToShowFullScreenContent(@NonNull AdError adError) {
+                Log.e(TAG, "Interstitial failed to show: " + adError);
+                mInterstitialAd = null;
+            }
+
+            @Override
+            public void onAdShowedFullScreenContent() {
+                Log.i(TAG, "Interstitial shown");
+            }
+        });
+        mInterstitialAd.show(this);
     }
 
     private void launchInfoActivity(String publisherWebsite, String publisherEmail, String privacyPolicyWebsite, String trayIconUriString) {
@@ -180,6 +201,10 @@ public class StickerPackDetailsActivity extends BaseActivity {
     }
 
     private void addStickerPackToWhatsApp(String stickerPackName) {
+        if (stickerPack.getIsPremium() && !premiumBillingManager.isPremiumUnlocked()) {
+            premiumBillingManager.launchPurchase(this);
+            return;
+        }
         Intent intent = new Intent();
         intent.setAction("com.whatsapp.intent.action.ENABLE_STICKER_PACK");
         intent.putExtra(StickerPackDetailsActivity.EXTRA_STICKER_PACK_ID, stickerPack.identifier);
@@ -250,6 +275,7 @@ public class StickerPackDetailsActivity extends BaseActivity {
     @Override
     protected void onResume() {
         super.onResume();
+        premiumBillingManager.connectAndRestore();
         whiteListCheckAsyncTask = new WhiteListCheckAsyncTask(this);
         whiteListCheckAsyncTask.execute(stickerPack);
     }
@@ -263,13 +289,59 @@ public class StickerPackDetailsActivity extends BaseActivity {
     }
 
     private void updateAddUI(Boolean isWhitelisted) {
-        if (isWhitelisted) {
+        this.isWhitelisted = isWhitelisted;
+        refreshPrimaryAction();
+    }
+
+    private void handlePrimaryAction() {
+        if (stickerPack.getIsPremium() && !premiumBillingManager.isPremiumUnlocked()) {
+            premiumBillingManager.launchPurchase(this);
+        } else {
+            addStickerPackToWhatsApp(stickerPack.name);
+        }
+    }
+
+    private void refreshPrimaryAction() {
+        boolean locked = stickerPack.getIsPremium() && !premiumBillingManager.isPremiumUnlocked();
+        if (locked) {
+            addButton.setVisibility(View.VISIBLE);
+            alreadyAddedText.setVisibility(View.GONE);
+            String price = premiumBillingManager.getFormattedPrice();
+            addButton.setText(price == null
+                    ? getString(R.string.unlock_premium)
+                    : getString(R.string.unlock_premium_price, price));
+            addButton.setIconResource(R.drawable.baseline_lock_24);
+            addButton.setEnabled(!premiumBillingManager.isPurchasePending());
+        } else if (isWhitelisted) {
             addButton.setVisibility(View.GONE);
             alreadyAddedText.setVisibility(View.VISIBLE);
         } else {
             addButton.setVisibility(View.VISIBLE);
             alreadyAddedText.setVisibility(View.GONE);
+            addButton.setText(R.string.add_to_whatsapp);
+            addButton.setIconResource(R.drawable.sticker_3rdparty_wa);
+            addButton.setEnabled(true);
         }
+    }
+
+    @Override
+    public void onPremiumStateChanged() {
+        if (addButton != null && stickerPack != null) {
+            refreshPrimaryAction();
+        }
+    }
+
+    @Override
+    public void onBillingMessage(int stringResource) {
+        Toast.makeText(this, stringResource, Toast.LENGTH_LONG).show();
+    }
+
+    @Override
+    protected void onDestroy() {
+        if (premiumBillingManager != null) {
+            premiumBillingManager.removeListener(this);
+        }
+        super.onDestroy();
     }
 
     static class WhiteListCheckAsyncTask extends AsyncTask<StickerPack, Void, Boolean> {

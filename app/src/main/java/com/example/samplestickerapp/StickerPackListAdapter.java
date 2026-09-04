@@ -13,7 +13,6 @@ import android.content.Intent;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 import android.text.format.Formatter;
-import android.util.TypedValue;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -25,13 +24,10 @@ import java.util.List;
 public class StickerPackListAdapter extends RecyclerView.Adapter<StickerPackListItemViewHolder> {
     @NonNull
     private List<StickerPack> stickerPacks;
-    @NonNull
-    private final OnAddButtonClickedListener onAddButtonClickedListener;
     private int maxNumberOfStickersInARow;
 
-    StickerPackListAdapter(@NonNull List<StickerPack> stickerPacks, @NonNull OnAddButtonClickedListener onAddButtonClickedListener) {
+    StickerPackListAdapter(@NonNull List<StickerPack> stickerPacks) {
         this.stickerPacks = stickerPacks;
-        this.onAddButtonClickedListener = onAddButtonClickedListener;
     }
 
     @NonNull
@@ -49,6 +45,7 @@ public class StickerPackListAdapter extends RecyclerView.Adapter<StickerPackList
         final Context context = viewHolder.publisherView.getContext();
         viewHolder.publisherView.setText(pack.publisher);
         viewHolder.filesizeView.setText(Formatter.formatShortFileSize(context, pack.getTotalSize()));
+        viewHolder.premiumBadge.setVisibility(pack.getIsPremium() ? View.VISIBLE : View.GONE);
 
         viewHolder.titleView.setText(pack.name);
         viewHolder.container.setOnClickListener(view -> {
@@ -71,22 +68,6 @@ public class StickerPackListAdapter extends RecyclerView.Adapter<StickerPackList
             }
             viewHolder.imageRowView.addView(rowImage);
         }
-        setAddButtonAppearance(viewHolder.addButton, pack);
-    }
-
-    private void setAddButtonAppearance(ImageView addButton, StickerPack pack) {
-        if (pack.getIsWhitelisted()) {
-            addButton.setImageResource(R.drawable.sticker_3rdparty_added);
-            addButton.setClickable(false);
-            addButton.setOnClickListener(null);
-            addButton.setBackgroundDrawable(null);
-        } else {
-            addButton.setImageResource(R.drawable.sticker_3rdparty_add);
-            addButton.setOnClickListener(v -> onAddButtonClickedListener.onAddButtonClicked(pack));
-            TypedValue outValue = new TypedValue();
-            addButton.getContext().getTheme().resolveAttribute(android.R.attr.selectableItemBackground, outValue, true);
-            addButton.setBackgroundResource(outValue.resourceId);
-        }
     }
 
     @Override
@@ -101,7 +82,4 @@ public class StickerPackListAdapter extends RecyclerView.Adapter<StickerPackList
         }
     }
 
-    public interface OnAddButtonClickedListener {
-        void onAddButtonClicked(StickerPack stickerPack);
-    }
 }
