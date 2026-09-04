@@ -6,12 +6,14 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:focusable="true"
+    android:background="@drawable/sticker_pack_card_background"
     android:foreground="?android:attr/selectableItemBackground"
     android:orientation="vertical"
-    android:paddingBottom="4dp"
+    android:layout_marginBottom="12dp"
+    android:paddingBottom="12dp"
     android:paddingEnd="16dp"
     android:paddingStart="16dp"
-    android:paddingTop="8dp">
+    android:paddingTop="12dp">
 
     <ImageView
         android:id="@+id/add_button_on_list"
@@ -45,8 +47,9 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_gravity="center_vertical"
-            android:textColor="@android:color/black"
-            android:textSize="16sp"
+            android:textColor="@color/on_surface"
+            android:textSize="17sp"
+            android:textStyle="bold"
             tools:text="Pusheen" />
 
 

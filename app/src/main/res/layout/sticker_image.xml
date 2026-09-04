@@ -5,7 +5,7 @@
     android:layout_height="wrap_content"
     tools:background="#000">
 
-    <com.facebook.drawee.view.SimpleDraweeView
+    <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/sticker_preview"
         android:layout_width="@dimen/sticker_pack_details_image_size"
         android:layout_height="@dimen/sticker_pack_details_image_size"

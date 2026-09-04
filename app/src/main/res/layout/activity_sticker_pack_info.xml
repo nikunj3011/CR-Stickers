@@ -1,46 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/info_root"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/infoPageBackgroundColor"
-    android:orientation="vertical"
-    android:paddingTop="8dp"
+    android:background="@color/surface"
     tools:context=".StickerPackInfoActivity">
-
-    <LinearLayout
-        android:layout_width="match_parent"
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/info_toolbar"
+        android:layout_width="0dp"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/surface"
+        app:navigationIcon="@drawable/baseline_arrow_back_24"
+        app:title="@string/title_activity_sticker_pack_info"
+        app:titleTextColor="@color/on_surface"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/info_subtitle"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:background="@android:color/white"
-        android:orientation="vertical">
-        <TextView
-            android:id="@+id/tray_icon"
-            style="@style/InfoButtonStyle"
-            android:textColor="#B9B9B9"
-            tools:drawableLeft="@drawable/sticker_3rdparty_web"
-            tools:drawableStart="@drawable/sticker_3rdparty_web"
-            android:clickable="false"
-            android:text="@string/info_screen_tray_icon" />
-
-        <TextView
-            android:id="@+id/view_webpage"
-            style="@style/InfoButtonStyle"
-            android:drawableLeft="@drawable/sticker_3rdparty_web"
-            android:drawableStart="@drawable/sticker_3rdparty_web"
-            android:text="@string/view_webpage" />
-
-        <TextView
-            android:id="@+id/send_email"
-            style="@style/InfoButtonStyle"
-            android:drawableLeft="@drawable/sticker_3rdparty_email"
-            android:drawableStart="@drawable/sticker_3rdparty_email"
-            android:text="@string/send_email" />
-
-        <TextView
-            android:id="@+id/privacy_policy"
-            style="@style/InfoButtonStyle"
-            android:drawableLeft="@drawable/sticker_3rdparty_privacy"
-            android:drawableStart="@drawable/sticker_3rdparty_privacy"
-            android:text="@string/privacy_policy" />
-    </LinearLayout>
-</LinearLayout>
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="24dp"
+        android:text="@string/pack_information_subtitle"
+        android:textColor="@color/on_surface_variant"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/info_toolbar" />
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="16dp"
+        app:cardBackgroundColor="@color/surface_variant"
+        app:cardCornerRadius="18dp"
+        app:cardElevation="0dp"
+        app:strokeColor="@color/outline"
+        app:strokeWidth="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/info_subtitle">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingVertical="8dp">
+            <TextView android:id="@+id/tray_icon" style="@style/InfoButtonStyle" android:clickable="false" android:text="@string/info_screen_tray_icon" android:textColor="@color/on_surface_variant" />
+            <TextView android:id="@+id/view_webpage" style="@style/InfoButtonStyle" android:drawableStart="@drawable/sticker_3rdparty_web" android:text="@string/view_webpage" />
+            <TextView android:id="@+id/send_email" style="@style/InfoButtonStyle" android:drawableStart="@drawable/sticker_3rdparty_email" android:text="@string/send_email" />
+            <TextView android:id="@+id/privacy_policy" style="@style/InfoButtonStyle" android:drawableStart="@drawable/sticker_3rdparty_privacy" android:text="@string/privacy_policy" />
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

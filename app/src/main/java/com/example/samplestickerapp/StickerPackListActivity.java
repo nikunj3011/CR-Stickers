@@ -16,16 +16,20 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
+import androidx.core.graphics.Insets;
+import androidx.core.view.ViewCompat;
+import androidx.core.view.WindowCompat;
+import androidx.core.view.WindowInsetsCompat;
 import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import android.util.Log;
 import android.view.View;
-import android.widget.ImageView;
-import android.widget.TextView;
+import android.widget.FrameLayout;
 import android.widget.Toast;
 
 import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdSize;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.MobileAds;
 import com.google.android.gms.ads.initialization.InitializationStatus;
@@ -42,43 +46,48 @@ public class StickerPackListActivity extends BaseActivity {
     private static final String TAG = "StickerPackList";
     private LinearLayoutManager packLayoutManager;
     private RecyclerView packRecyclerView;
-    private ImageView imageView;
-    private TextView textView;
     private StickerPackListAdapter allStickerPacksListAdapter;
     WhiteListCheckAsyncTask whiteListCheckAsyncTask;
     ArrayList<StickerPack> stickerPackList;
 
     private AdView mAdView;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
 
         setContentView(R.layout.activity_sticker_pack_list);
+        WindowCompat.setDecorFitsSystemWindows(getWindow(), false);
+        View root = findViewById(R.id.root);
+        ViewCompat.setOnApplyWindowInsetsListener(root, (view, windowInsets) -> {
+            Insets insets = windowInsets.getInsets(
+                    WindowInsetsCompat.Type.systemBars() | WindowInsetsCompat.Type.displayCutout());
+            view.setPadding(insets.left, insets.top, insets.right, insets.bottom);
+            return windowInsets;
+        });
         packRecyclerView = findViewById(R.id.sticker_pack_list);
-
         stickerPackList = getIntent().getParcelableArrayListExtra(EXTRA_STICKER_PACK_LIST_DATA);
         showStickerPackList(stickerPackList);
 
-        imageView = findViewById(R.id.imageView);
-        textView = findViewById(R.id.textView);
-        imageView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Uri uri = Uri.parse("https://ko-fi.com/nikunj3011"); // missing 'http://' will cause crashed
-                Intent intent = new Intent(Intent.ACTION_VIEW, uri);
-                startActivity(intent);
+        com.google.android.material.bottomnavigation.BottomNavigationView navigation =
+                findViewById(R.id.bottom_navigation);
+        navigation.setSelectedItemId(R.id.navigation_home);
+        navigation.setOnItemSelectedListener(item -> {
+            if (item.getItemId() == R.id.navigation_home) {
+                packRecyclerView.smoothScrollToPosition(0);
+                return true;
             }
-        });
-
-        textView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Uri uri = Uri.parse("https://ko-fi.com/nikunj3011"); // missing 'http://' will cause crashed
-                Intent intent = new Intent(Intent.ACTION_VIEW, uri);
-                startActivity(intent);
+            if (item.getItemId() == R.id.navigation_support) {
+                Intent supportIntent = new Intent(Intent.ACTION_VIEW,
+                        Uri.parse("https://ko-fi.com/nikunj3011"));
+                try {
+                    startActivity(supportIntent);
+                } catch (ActivityNotFoundException exception) {
+                    Toast.makeText(this, R.string.unable_to_open_link, Toast.LENGTH_SHORT).show();
+                }
+                return false;
             }
+            return false;
         });
 
 
@@ -89,14 +98,31 @@ public class StickerPackListActivity extends BaseActivity {
             }
         });
         //setContentView(R.layout.sticker_packs_list_item);
-        mAdView = (AdView)findViewById(R.id.adView);
-        AdRequest adRequest = new AdRequest.Builder().build();
-        mAdView.loadAd(adRequest);
+        FrameLayout adContainer = findViewById(R.id.adView);
+        adContainer.post(() -> {
+            float density = getResources().getDisplayMetrics().density;
+            int widthPixels = adContainer.getWidth();
+            if (widthPixels <= 0) {
+                widthPixels = getResources().getDisplayMetrics().widthPixels;
+            }
+            int adWidthDp = Math.max(1, (int) (widthPixels / density));
+            mAdView = new AdView(this);
+            mAdView.setAdUnitId(getString(R.string.banner_ad_unit_id));
+            mAdView.setAdSize(AdSize.getCurrentOrientationAnchoredAdaptiveBannerAdSize(
+                    this, adWidthDp));
+            adContainer.addView(mAdView, new FrameLayout.LayoutParams(
+                    FrameLayout.LayoutParams.MATCH_PARENT,
+                    FrameLayout.LayoutParams.WRAP_CONTENT));
+            mAdView.loadAd(new AdRequest.Builder().build());
+        });
     }
 
     @Override
     protected void onResume() {
         super.onResume();
+        if (mAdView != null) {
+            mAdView.resume();
+        }
         whiteListCheckAsyncTask = new WhiteListCheckAsyncTask(this);
         //noinspection unchecked
         whiteListCheckAsyncTask.execute(stickerPackList);
@@ -104,10 +130,22 @@ public class StickerPackListActivity extends BaseActivity {
 
     @Override
     protected void onPause() {
+        if (mAdView != null) {
+            mAdView.pause();
+        }
         super.onPause();
         if (whiteListCheckAsyncTask != null && !whiteListCheckAsyncTask.isCancelled()) {
             whiteListCheckAsyncTask.cancel(true);
         }
+    }
+
+    @Override
+    protected void onDestroy() {
+        if (mAdView != null) {
+            mAdView.destroy();
+            mAdView = null;
+        }
+        super.onDestroy();
     }
 
     private void showStickerPackList(List<StickerPack> stickerPackList) {

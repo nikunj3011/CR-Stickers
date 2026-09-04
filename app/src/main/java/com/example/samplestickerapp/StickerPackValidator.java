@@ -14,20 +14,18 @@ import android.graphics.BitmapFactory;
 import androidx.annotation.NonNull;
 import android.text.TextUtils;
 
-import com.facebook.animated.webp.WebPImage;
-
 import java.io.IOException;
 import java.util.List;
 
 public class StickerPackValidator {
-    private static final int STICKER_FILE_SIZE_LIMIT_KB = 100;
+    private static final int STICKER_FILE_SIZE_LIMIT_KB = 300;
     private static final int EMOJI_LIMIT = 3;
     private static final int IMAGE_HEIGHT = 512;
     private static final int IMAGE_WIDTH = 512;
     private static final int STICKER_SIZE_MIN = 3;
     private static final int STICKER_SIZE_MAX = 30;
     private static final int CHAR_COUNT_MAX = 128;
-    private static final long ONE_KIBIBYTE = 8 * 1024;
+    private static final long ONE_KIBIBYTE = 1024;
     private static final int TRAY_IMAGE_FILE_SIZE_MAX_KB = 50;
     private static final int TRAY_IMAGE_DIMENSION_MIN = 24;
     private static final int TRAY_IMAGE_DIMENSION_MAX = 512;
@@ -99,15 +97,17 @@ public class StickerPackValidator {
                 throw new IllegalStateException("sticker should be less than " + STICKER_FILE_SIZE_LIMIT_KB + "KB, sticker pack identifier:" + identifier + ", filename:" + fileName);
             }
             try {
-                final WebPImage webPImage = WebPImage.create(bytes);
-                if (webPImage.getHeight() != IMAGE_HEIGHT) {
+                BitmapFactory.Options bounds = new BitmapFactory.Options();
+                bounds.inJustDecodeBounds = true;
+                BitmapFactory.decodeByteArray(bytes, 0, bytes.length, bounds);
+                if (bounds.outMimeType == null || !bounds.outMimeType.contains("webp")) {
+                    throw new IllegalStateException("sticker must be a WebP image, sticker pack identifier:" + identifier + ", filename:" + fileName);
+                }
+                if (bounds.outHeight != IMAGE_HEIGHT) {
                     throw new IllegalStateException("sticker height should be " + IMAGE_HEIGHT + ", sticker pack identifier:" + identifier + ", filename:" + fileName);
                 }
-                if (webPImage.getWidth() != IMAGE_WIDTH) {
+                if (bounds.outWidth != IMAGE_WIDTH) {
                     throw new IllegalStateException("sticker width should be " + IMAGE_WIDTH + ", sticker pack identifier:" + identifier + ", filename:" + fileName);
-                }
-                if (webPImage.getFrameCount() > 1) {
-                    throw new IllegalStateException("sticker shoud be a static image, no animated sticker support at the moment, sticker pack identifier:" + identifier + ", filename:" + fileName);
                 }
             } catch (IllegalArgumentException e) {
                 throw new IllegalStateException("Error parsing webp image, sticker pack identifier:" + identifier + ", filename:" + fileName, e);

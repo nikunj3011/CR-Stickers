@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">@android:color/transparent</color>
-    <color name="colorPrimaryDark">#BABABA</color>
-    <color name="colorAccent">#128C7E</color>
-    <color name="inactiveAddButtonColor">#B3B3B3</color>
-    <color name="infoPageBackgroundColor">#EBEBEB</color>
+    <color name="colorPrimary">#18181B</color>
+    <color name="colorPrimaryDark">#09090B</color>
+    <color name="colorAccent">#25D366</color>
+    <color name="inactiveAddButtonColor">#A1A1AA</color>
+    <color name="infoPageBackgroundColor">#FAFAFA</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_variant">#F4F4F5</color>
+    <color name="outline">#E4E4E7</color>
+    <color name="on_surface">#18181B</color>
+    <color name="on_surface_variant">#71717A</color>
     <color name="actionBarArrowColor">@color/colorAccent</color>
 </resources>

@@ -1,143 +1,141 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/details_root"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_marginBottom="@dimen/preview_side_margin"
-    android:layout_marginTop="8dp"
-    android:orientation="vertical">
+    android:background="@color/surface">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/constraintLayout"
-        android:layout_width="match_parent"
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/details_toolbar"
+        android:layout_width="0dp"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/surface"
+        app:navigationIcon="@drawable/baseline_arrow_back_24"
+        app:title="@string/title_activity_sticker_pack_details_single_pack"
+        app:titleTextColor="@color/on_surface"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/pack_summary_card"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="24dp"
-        android:layout_marginEnd="@dimen/preview_side_margin"
-        android:layout_marginLeft="@dimen/preview_side_margin"
-        android:layout_marginRight="@dimen/preview_side_margin"
-        android:layout_marginStart="@dimen/preview_side_margin">
-
-
-        <ImageView
-            android:id="@+id/tray_image"
-            android:layout_marginLeft="16dp"
-            android:layout_marginTop="8dp"
-            android:layout_width="36dp"
-            android:layout_height="36dp"
-            android:contentDescription="@string/tray_image_content_description"
-            android:src="@color/colorAccent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            tools:src="@color/colorAccent"
-            android:layout_marginStart="16dp" />
-
-        <TextView
-            android:id="@+id/pack_name"
-            android:layout_width="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        app:cardBackgroundColor="@color/surface_variant"
+        app:cardCornerRadius="18dp"
+        app:cardElevation="0dp"
+        app:strokeColor="@color/outline"
+        app:strokeWidth="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/details_toolbar">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/margin_from_tray_to_name"
-            android:layout_marginStart="@dimen/margin_from_tray_to_name"
-            android:layout_marginTop="8dp"
-            android:textSize="16sp"
-            android:textStyle="bold"
-            app:layout_constraintStart_toEndOf="@+id/tray_image"
-            app:layout_constraintTop_toTopOf="parent"
-            tools:text="Pack Name" />
-
-        <TextView
-            android:id="@+id/author"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/margin_from_tray_to_name"
-            android:layout_marginStart="@dimen/margin_from_tray_to_name"
-            android:layout_marginTop="16dp"
-            app:layout_constraintStart_toEndOf="@+id/tray_image"
-            app:layout_constraintTop_toBottomOf="@+id/pack_name"
-            tools:text="Author" />
-
-        <TextView
-            android:id="@+id/pack_size"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/margin_from_tray_to_name"
-            android:layout_marginStart="@dimen/margin_from_tray_to_name"
-            app:layout_constraintStart_toEndOf="@+id/tray_image"
-            app:layout_constraintTop_toBottomOf="@+id/author"
-            tools:text="Size" />
-
-    </androidx.constraintlayout.widget.ConstraintLayout>
+            android:padding="16dp">
+            <ImageView
+                android:id="@+id/tray_image"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:contentDescription="@string/tray_image_content_description"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:id="@+id/pack_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:textColor="@color/on_surface"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/tray_image"
+                app:layout_constraintTop_toTopOf="@id/tray_image"
+                tools:text="Sticker pack" />
+            <TextView
+                android:id="@+id/author"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="3dp"
+                android:textColor="@color/on_surface_variant"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/tray_image"
+                app:layout_constraintTop_toBottomOf="@id/pack_name"
+                tools:text="Publisher" />
+            <TextView
+                android:id="@+id/pack_size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="3dp"
+                android:textColor="@color/on_surface_variant"
+                android:textSize="12sp"
+                app:layout_constraintStart_toEndOf="@id/tray_image"
+                app:layout_constraintTop_toBottomOf="@id/author"
+                tools:text="700 KB" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
 
     <FrameLayout
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_weight="1">
-
+        android:layout_marginTop="12dp"
+        app:layout_constraintBottom_toTopOf="@id/action_area"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/pack_summary_card">
         <com.example.samplestickerapp.BottomFadingRecyclerView
             android:id="@+id/sticker_list"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:clipToPadding="false"
-            android:fadingEdgeLength="@dimen/fading_edge_length"
-            android:paddingEnd="@dimen/preview_side_margin"
-            android:paddingLeft="@dimen/preview_side_margin"
-            android:paddingRight="@dimen/preview_side_margin"
-            android:paddingStart="@dimen/preview_side_margin"
-            android:requiresFadingEdge="vertical" />
-
+            android:paddingHorizontal="16dp"
+            android:paddingBottom="12dp" />
         <View
             android:id="@+id/divider"
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:alpha="0.1"
-            android:background="#000000"
-            android:visibility="invisible"
-            tools:visibility="visible" />
-
+            android:background="@color/outline"
+            android:visibility="invisible" />
     </FrameLayout>
 
     <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_marginEnd="@dimen/preview_side_margin"
-        android:layout_marginLeft="@dimen/preview_side_margin"
-        android:layout_marginRight="@dimen/preview_side_margin"
-        android:layout_marginStart="@dimen/preview_side_margin"
-        android:layout_height="60dp">
-
+        android:id="@+id/action_area"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingStart="16dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="16dp"
+        android:paddingBottom="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
         <TextView
             android:id="@+id/already_added_text"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
+            android:layout_height="56dp"
             android:gravity="center"
             android:text="@string/details_pack_already_added"
-            android:textColor="#9B9B9B"
-            android:textSize="14sp"
-            android:visibility="gone"
-            tools:visibility="visible" />
-
-        <FrameLayout
+            android:textColor="@color/on_surface_variant"
+            android:visibility="gone" />
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/add_to_whatsapp_button"
+            style="@style/Widget.Material3.Button"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="bottom"
-            android:background="@drawable/btn_green"
-            android:clickable="true"
-            android:focusable="true">
-
-            <TextView
-                style="@style/StickerPreviewButtonText"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:background="@android:color/transparent"
-                android:clickable="false"
-                android:drawableLeft="@drawable/sticker_3rdparty_wa"
-                android:drawablePadding="8dp"
-                android:drawableStart="@drawable/sticker_3rdparty_wa"
-                android:focusable="false"
-                android:foreground="@android:color/transparent"
-                android:text="@string/add_to_whatsapp" />
-        </FrameLayout>
+            android:layout_height="56dp"
+            android:text="@string/add_to_whatsapp"
+            android:textColor="@android:color/white"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            app:cornerRadius="16dp"
+            app:icon="@drawable/sticker_3rdparty_wa"
+            app:iconGravity="textStart" />
     </FrameLayout>
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,4 +1,6 @@
 <resources>
+    <string name="banner_ad_unit_id" translatable="false">ca-app-pub-8299128249632072/4958311775</string>
+    <string name="interstitial_ad_unit_id" translatable="false">ca-app-pub-8299128249632072/3113326183</string>
     <string name="app_name">CR Stickers - WhatsApp</string>
     <string name="tray_image_content_description">Sticker Pack Tray Image</string>
     <string name="more_info_button">More info about sticker pack</string>
@@ -17,4 +19,12 @@
     <string name="title_validation_error">Error with the pack</string>
     <string name="info_screen_tray_icon">Tray icon</string>
     <string name="details_pack_already_added">Sticker pack added to WhatsApp</string>
+    <string name="support_creator">Support creator</string>
+    <string name="sticker_library_subtitle">Pick a pack and add it to WhatsApp</string>
+    <string name="home">Home</string>
+    <string name="unable_to_open_link">Unable to open this link</string>
+    <string name="pack_information_subtitle">Publisher details and useful links</string>
 </resources>
+
+
+

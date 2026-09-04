@@ -8,6 +8,7 @@
 
 package com.example.samplestickerapp;
 
+import android.content.ActivityNotFoundException;
 import android.content.Intent;
 import android.graphics.Rect;
 import android.graphics.drawable.BitmapDrawable;
@@ -18,6 +19,11 @@ import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
+import androidx.core.graphics.Insets;
+import androidx.core.view.ViewCompat;
+import androidx.core.view.WindowCompat;
+import androidx.core.view.WindowInsetsCompat;
 
 import java.io.FileNotFoundException;
 import java.io.InputStream;
@@ -29,7 +35,17 @@ public class StickerPackInfoActivity extends BaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        WindowCompat.setDecorFitsSystemWindows(getWindow(), false);
         setContentView(R.layout.activity_sticker_pack_info);
+        View root = findViewById(R.id.info_root);
+        ViewCompat.setOnApplyWindowInsetsListener(root, (view, windowInsets) -> {
+            Insets insets = windowInsets.getInsets(
+                    WindowInsetsCompat.Type.systemBars() | WindowInsetsCompat.Type.displayCutout());
+            view.setPadding(insets.left, insets.top, insets.right, insets.bottom);
+            return windowInsets;
+        });
+        com.google.android.material.appbar.MaterialToolbar toolbar = findViewById(R.id.info_toolbar);
+        toolbar.setNavigationOnClickListener(view -> getOnBackPressedDispatcher().onBackPressed());
 
         final String trayIconUriString = getIntent().getStringExtra(StickerPackDetailsActivity.EXTRA_STICKER_PACK_TRAY_ICON);
         final String website = getIntent().getStringExtra(StickerPackDetailsActivity.EXTRA_STICKER_PACK_WEBSITE);
@@ -77,9 +93,19 @@ public class StickerPackInfoActivity extends BaseActivity {
     }
 
     private void launchWebpage(String website) {
-        Uri uri = Uri.parse(website);
+        String normalizedWebsite = website.trim();
+        Uri uri = Uri.parse(normalizedWebsite);
+        if (TextUtils.isEmpty(uri.getScheme())) {
+            uri = Uri.parse("https://" + normalizedWebsite);
+        }
+
         Intent intent = new Intent(Intent.ACTION_VIEW, uri);
-        startActivity(intent);
+        try {
+            startActivity(intent);
+        } catch (ActivityNotFoundException | SecurityException exception) {
+            Log.e(TAG, "Unable to open webpage: " + uri, exception);
+            Toast.makeText(this, R.string.unable_to_open_link, Toast.LENGTH_SHORT).show();
+        }
     }
 
 }
