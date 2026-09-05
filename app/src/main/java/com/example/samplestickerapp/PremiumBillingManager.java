@@ -49,6 +49,7 @@ final class PremiumBillingManager implements PurchasesUpdatedListener {
     private ProductDetails productDetails;
     private boolean connecting;
     private boolean pending;
+    private boolean entitlementResolved;
 
     private PremiumBillingManager(Context context) {
         this.context = context;
@@ -80,6 +81,10 @@ final class PremiumBillingManager implements PurchasesUpdatedListener {
         return pending;
     }
 
+    boolean isEntitlementResolved() {
+        return entitlementResolved || isPremiumUnlocked();
+    }
+
     String getFormattedPrice() {
         if (productDetails == null) {
             return null;
@@ -107,6 +112,8 @@ final class PremiumBillingManager implements PurchasesUpdatedListener {
                     queryProductDetails();
                     restorePurchases();
                 } else {
+                    entitlementResolved = true;
+                    notifyStateChanged();
                     notifyMessage(R.string.billing_unavailable);
                 }
             }
@@ -171,8 +178,11 @@ final class PremiumBillingManager implements PurchasesUpdatedListener {
                 .build();
         billingClient.queryPurchasesAsync(params, (billingResult, purchases) -> {
             if (billingResult.getResponseCode() != BillingClient.BillingResponseCode.OK) {
+                entitlementResolved = true;
+                notifyStateChanged();
                 return;
             }
+            entitlementResolved = true;
             boolean foundPremium = false;
             pending = false;
             for (Purchase purchase : purchases) {
@@ -195,6 +205,7 @@ final class PremiumBillingManager implements PurchasesUpdatedListener {
 
     @Override
     public void onPurchasesUpdated(@NonNull BillingResult billingResult, List<Purchase> purchases) {
+        entitlementResolved = true;
         int responseCode = billingResult.getResponseCode();
         if (responseCode == BillingClient.BillingResponseCode.OK && purchases != null) {
             for (Purchase purchase : purchases) {

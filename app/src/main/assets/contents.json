@@ -4,3056 +4,4289 @@
   "sticker_packs": [
     {
       "identifier": "1",
-      "name": "Clash Royale",
-      "publisher": "Nikunj Rathod",
+      "name": "Clash Royale - Pack 1",
+      "publisher": "Supercell",
       "tray_image_file": "tray_goblin.png",
-      "publisher_email": "nikunjrathod3011@gmail.com",
-      "publisher_website": "nikunj3011.github.io",
+      "publisher_email": "",
+      "publisher_website": "https://fankit.supercell.com/",
       "privacy_policy_website": "",
       "license_agreement_website": "",
       "stickers": [
         {
-          "image_file": "Angry_Giant.webp",
+          "image_file": "1_emotes_berserkerhero_bear_dl.webp",
           "emojis": [
-            "☕",
-            "🙂"
+            "🤣",
+            "😭"
           ]
         },
         {
-          "image_file": "Angry_King.webp",
+          "image_file": "1_emotes_valkyrie_animerain_dl.webp",
           "emojis": [
-            "😄",
-            "😀"
-          ]
-        },
-        {
-          "image_file": "Angry_Princess.webp",
-          "emojis": [
-            "😆",
+            "❤️",
             "😂"
           ]
         },
         {
-          "image_file": "anti.webp",
-          "emojis": [
-            "😩",
-            "😰"
-          ]
-        },
-        {
-          "image_file": "Bow_Princess.webp",
+          "image_file": "1_emotes_valkyriehero_seeya_dl.webp",
           "emojis": [
             "😭",
-            "💧"
+            "😊"
           ]
         },
         {
-          "image_file": "Confused_Goblin.webp",
+          "image_file": "1_emotes_knight_scubadance_dl.webp",
+          "emojis": [
+            "👍",
+            "😘"
+          ]
+        },
+        {
+          "image_file": "1_emotes_berserker_kenpose_dl.webp",
+          "emojis": [
+            "😊",
+            "😭"
+          ]
+        },
+        {
+          "image_file": "1_emotes_valkyriehero_collarup_dl.webp",
+          "emojis": [
+            "😭",
+            "❤️"
+          ]
+        },
+        {
+          "image_file": "1_emotes_elitebarbarianevo_lol_dl.webp",
           "emojis": [
             "😍",
-            "♥"
+            "❤️"
           ]
         },
         {
-          "image_file": "Crying_King.webp",
+          "image_file": "1_emotes_evoelitebarbarian_rage_dl.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "😭",
+            "👍"
           ]
         },
         {
-          "image_file": "Dab_Wizard.webp",
+          "image_file": "1_emotes_berserkerhero_facepaint_dl.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "❤️",
+            "😊"
           ]
         },
         {
-          "image_file": "Dagger_Goblin.webp",
+          "image_file": "1_emotes_berserkerhero_confused_dl.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "😂",
+            "🥰"
           ]
         },
         {
-          "image_file": "Darkness_Wizard.webp",
+          "image_file": "1_emotes_elitebarbarianevo_charge_dl.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "😂",
+            "🤣"
           ]
         },
         {
-          "image_file": "Deal_With_It_Goblin.webp",
+          "image_file": "1_emotes_valkyriehero_battlepose_dl.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "😊",
+            "❤️"
           ]
         },
         {
-          "image_file": "Eating_Giant.webp",
+          "image_file": "1_emotes_elitebarbarianevo_broposing_dl.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "👍",
+            "🥰"
           ]
         },
         {
-          "image_file": "Eye_Twitch_Goblin.webp",
+          "image_file": "1_emotes_elitebarbarianevo_flexing_dl.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "😘",
+            "😭"
           ]
         },
-
         {
-          "image_file": "Facepalm_Goblin.webp",
+          "image_file": "1_emotes_valkyriehero_superwarrior_dl.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "😭",
+            "🥰"
           ]
         },
         {
-          "image_file": "Flame_Wizard.webp",
+          "image_file": "1_emotes_elitebarbarianevo_technobarb_dl.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "🙏",
+            "👍"
           ]
         },
         {
-          "image_file": "Grin_Princess.webp",
+          "image_file": "1_emotes_ronin_killlist_dl.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "🥰",
+            "🙏"
           ]
         },
         {
-          "image_file": "Hammer_Hog.webp",
+          "image_file": "1_emotes_ronin_slashing_dl.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "😂",
+            "😭"
           ]
         },
         {
-          "image_file": "Happy_Goblin.webp",
+          "image_file": "1_emotes_ronin_epicwalk_dl.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "👍",
+            "🥰"
           ]
         },
         {
-          "image_file": "Happy_Hoggy.webp",
+          "image_file": "1_emotes_ronin_chilltea_dl.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "🙏",
+            "🤣"
           ]
         },
         {
-          "image_file": "Head_Skeleton.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Helmet_Hoggy.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Idea_Ewiz.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Idea_Skeleton.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-
-        {
-          "image_file": "Kiss_Goblin.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Kiss_Hog.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Kiss_Princess.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Laugh_Barbarian.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Crying_Skeleton.webp",
+          "image_file": "1_emotes_ronin_jobdone_dl.webp",
           "emojis": [
             "😍",
-            "💑"
+            "😊"
+          ]
+        },
+        {
+          "image_file": "1_emotes_ronin_hatup_dl.webp",
+          "emojis": [
+            "🙏",
+            "🥰"
+          ]
+        },
+        {
+          "image_file": "1_emotes_bossbandit_no_dl.webp",
+          "emojis": [
+            "🙏",
+            "❤️"
+          ]
+        },
+        {
+          "image_file": "1_emotes_goblin_nope_dl.webp",
+          "emojis": [
+            "😍",
+            "😂"
+          ]
+        },
+        {
+          "image_file": "1_emotes_goblin_refereeyellow_dl.webp",
+          "emojis": [
+            "😘",
+            "😂"
+          ]
+        },
+        {
+          "image_file": "1_emotes_goblin_refereered_dl.webp",
+          "emojis": [
+            "😭",
+            "😂"
+          ]
+        },
+        {
+          "image_file": "1_emotes_hogrider_flex_dl.webp",
+          "emojis": [
+            "🙏",
+            "👍"
+          ]
+        },
+        {
+          "image_file": "1_emotes_knight_sliding_dl.webp",
+          "emojis": [
+            "😍",
+            "🥰"
+          ]
+        },
+        {
+          "image_file": "1_emotes_princessevo_fingerheart_dl.webp",
+          "emojis": [
+            "🥰",
+            "😘"
+          ]
+        },
+        {
+          "image_file": "1_emotes_princessevo_nailfile_dl.webp",
+          "emojis": [
+            "😘",
+            "🤣"
           ]
         }
       ]
     },
-
     {
       "identifier": "2",
-      "name": "Clash Royale 2",
-      "publisher": "Nikunj Rathod",
+      "name": "Clash Royale - Pack 2",
+      "publisher": "Supercell",
       "tray_image_file": "tray_goblin.png",
-      "publisher_email": "nikunjrathod3011@gmail.com",
-      "publisher_website": "nikunj3011.github.io",
+      "publisher_email": "",
+      "publisher_website": "https://fankit.supercell.com/",
       "privacy_policy_website": "",
       "license_agreement_website": "",
       "stickers": [
         {
-          "image_file": "Laughing_Goblin.webp",
+          "image_file": "2_emotes_princessevo_snoring_dl.webp",
           "emojis": [
-            "☕",
-            "🙂"
+            "😂",
+            "🙏"
           ]
         },
         {
-          "image_file": "Laughing_King.webp",
+          "image_file": "2_emotes_tombstonehero_surprise_dl.webp",
           "emojis": [
-            "😄",
-            "😀"
+            "❤️",
+            "😭"
           ]
         },
         {
-          "image_file": "Love_Skeleton.webp",
+          "image_file": "2_emotes_tombstonehero_flossdance_dl.webp",
           "emojis": [
-            "😆",
+            "😊",
+            "🤣"
+          ]
+        },
+        {
+          "image_file": "2_emotes_tombstonehero_funeral_dl.webp",
+          "emojis": [
+            "🙏",
+            "👍"
+          ]
+        },
+        {
+          "image_file": "2_emotes_tombstonehero_highstrike_dl.webp",
+          "emojis": [
+            "😍",
+            "❤️"
+          ]
+        },
+        {
+          "image_file": "2_emotes_bowlerhero_nope_dl.webp",
+          "emojis": [
+            "🤣",
+            "😊"
+          ]
+        },
+        {
+          "image_file": "2_emotes_bowlerhero_handsome_dl.webp",
+          "emojis": [
+            "🥰",
+            "🤣"
+          ]
+        },
+        {
+          "image_file": "2_emotes_darkprincehero_charge_dl.webp",
+          "emojis": [
+            "👍",
+            "😍"
+          ]
+        },
+        {
+          "image_file": "2_emotes_bowlerhero_dance_dl.webp",
+          "emojis": [
+            "😘",
+            "🤣"
+          ]
+        },
+        {
+          "image_file": "2_emotes_darkprincehero_inmune_dl.webp",
+          "emojis": [
+            "❤️",
+            "🤣"
+          ]
+        },
+        {
+          "image_file": "2_emotes_bowlerhero_creepy_dl.webp",
+          "emojis": [
+            "😍",
+            "🥰"
+          ]
+        },
+        {
+          "image_file": "2_emotes_darkprincehero_rhinoflirt_dl.webp",
+          "emojis": [
+            "😘",
+            "👍"
+          ]
+        },
+        {
+          "image_file": "2_emotes_darkprincehero_buddies_dl.webp",
+          "emojis": [
+            "❤️",
+            "😍"
+          ]
+        },
+        {
+          "image_file": "2_emotes_bowlerhero_awkward_dl.webp",
+          "emojis": [
+            "😭",
+            "🥰"
+          ]
+        },
+        {
+          "image_file": "2_Goblin_Easter.webp",
+          "emojis": [
+            "😘",
+            "😭"
+          ]
+        },
+        {
+          "image_file": "2_emotes_king_begging_dl.webp",
+          "emojis": [
+            "🤣",
+            "😭"
+          ]
+        },
+        {
+          "image_file": "2_emotes_ballonhero_scary_dl.webp",
+          "emojis": [
+            "😘",
             "😂"
           ]
         },
         {
-          "image_file": "Muscle_Goblin.webp",
+          "image_file": "2_Egg_anima_icon.webp",
           "emojis": [
-            "😩",
-            "😰"
+            "🥰",
+            "🤣"
           ]
         },
         {
-          "image_file": "Nail_Biter_Goblin.webp",
+          "image_file": "2_emotes_minionhordeevo_trio_dl.webp",
           "emojis": [
-            "😭",
-            "💧"
+            "❤️",
+            "😘"
           ]
         },
         {
-          "image_file": "Peace_Goblin.webp",
+          "image_file": "2_emotes_ballonhero_mindblown_dl.webp",
+          "emojis": [
+            "👍",
+            "😂"
+          ]
+        },
+        {
+          "image_file": "2_emotes_minionhordeevo_cough_dl.webp",
           "emojis": [
             "😍",
-            "♥"
+            "🤣"
           ]
         },
         {
-          "image_file": "Peace_Princess.webp",
+          "image_file": "2_emotes_ballonhero_pop_dl.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "🙏",
+            "🥰"
           ]
         },
         {
-          "image_file": "Pick_Barbarian.webp",
+          "image_file": "2_emotes_minionhordeevo_headdance_dl.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "😂",
+            "🤣"
           ]
         },
         {
-          "image_file": "Roar_Barbarian.webp",
+          "image_file": "2_Emote_Hog_Cake_Icon.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "❤️",
+            "😍"
           ]
         },
         {
-          "image_file": "Laugh_Ewiz.webp",
+          "image_file": "2_emotes_skeleton_shieldbang_dl.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "🥰",
+            "😊"
           ]
         },
         {
-          "image_file": "Scream_Hog.webp",
+          "image_file": "2_emotes_magicarcherhero_rainbowbow_dl.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "🙏",
+            "😭"
           ]
         },
         {
-          "image_file": "Scream_Hoggy.webp",
+          "image_file": "2_emotes_magicarcherhero_facepalm_dl.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "😘",
+            "😍"
           ]
         },
         {
-          "image_file": "Shocked_Ewiz.webp",
+          "image_file": "2_emotes_magicarcherhero_crowngrab_dl.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "👍",
+            "😘"
           ]
         },
         {
-          "image_file": "Shrug_Wizard.webp",
+          "image_file": "2_emotes_king_sillywalk_dl.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "😊",
+            "❤️"
           ]
         },
         {
-          "image_file": "Sleep_Hoggy.webp",
+          "image_file": "2_emotes_goblin_cheater_dl.webp",
           "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Smash_Giant.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Surrender_Goblin.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Sword_Barbarian.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Think_Hog.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "This_Is_Fine_Goblin.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Thumbs-Up_Ewiz.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Thumbs-Up_Giant.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Thumbs-Up_Goblin.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Thumbs-Up_King.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Thumbs-Up_Princess.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Tongue_Goblin.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Whistling_Princess.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-
-        {
-          "image_file": "Yawn_Princess.webp",
-          "emojis": [
-            "💔",
-            "👎"
+            "😊",
+            "😘"
           ]
         }
       ]
     },
-
     {
       "identifier": "3",
-      "name": "Clash Royale 3",
-      "publisher": "Nikunj Rathod",
+      "name": "Clash Royale - Pack 3",
+      "publisher": "Supercell",
       "tray_image_file": "tray_goblin.png",
-      "publisher_email": "nikunjrathod3011@gmail.com",
-      "publisher_website": "nikunj3011.github.io",
+      "publisher_email": "",
+      "publisher_website": "https://fankit.supercell.com/",
       "privacy_policy_website": "",
       "license_agreement_website": "",
       "stickers": [
         {
-          "image_file": "Finger_CRL.webp",
+          "image_file": "3_emotes_barbarianbarrelhero_selflove_dl.webp",
           "emojis": [
-            "☕",
-            "🙂"
+            "🙏",
+            "😘"
           ]
         },
         {
-          "image_file": "Scream_Bandit.webp",
+          "image_file": "3_emotes_barbarianbarrelhero_popup_dl.webp",
           "emojis": [
-            "😄",
-            "😀"
+            "😂",
+            "❤️"
           ]
         },
         {
-          "image_file": "Cheer_Knight.webp",
+          "image_file": "3_emotes_barbarianbarrelhero_launch_dl.webp",
           "emojis": [
-            "😆",
+            "😘",
+            "🥰"
+          ]
+        },
+        {
+          "image_file": "3_King_Birthday.webp",
+          "emojis": [
+            "🥰",
             "😂"
           ]
         },
         {
-          "image_file": "Excited_Musketeer.webp",
+          "image_file": "3_emotes_megaminionhero_what_dl.webp",
           "emojis": [
-            "😩",
-            "😰"
+            "🤣",
+            "🙏"
           ]
         },
         {
-          "image_file": "Happy_Baby_Dragon.webp",
+          "image_file": "3_emotes_megaminionhero_scary_dl.webp",
           "emojis": [
-            "😭",
-            "💧"
+            "🤣",
+            "😍"
           ]
         },
         {
-          "image_file": "Fuse_Bomber.webp",
+          "image_file": "3_emotes_megaminionhero_ovation_dl.webp",
           "emojis": [
             "😍",
-            "♥"
+            "😭"
           ]
         },
         {
-          "image_file": "Happy_Minion.webp",
+          "image_file": "3_emotes_megaminionhero_gargoyle_dl.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "🙏",
+            "😍"
           ]
         },
         {
-          "image_file": "Blink_Inferno_Tower.webp",
+          "image_file": "3_emotes_goblinhero_trollface_dl.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "🥰",
+            "❤️"
           ]
         },
         {
-          "image_file": "Pancakes_Mini_PEKKA.webp",
+          "image_file": "3_emotes_goblin_cheater_dl.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "❤️",
+            "🙏"
           ]
         },
         {
-          "image_file": "Mustache_Prince.webp",
+          "image_file": "3_emotes_goblinhero_peek_dl.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "😘",
+            "😍"
           ]
         },
         {
-          "image_file": "Arrow_Dark_Prince.webp",
+          "image_file": "3_emotes_goblinhero_headcrush_dl.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "❤️",
+            "👍"
           ]
         },
         {
-          "image_file": "Bored_Valkyrie.webp",
+          "image_file": "3_emotes_goblinhero_knife_dl.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "❤️",
+            "😭"
           ]
         },
         {
-          "image_file": "Gem_Royal_Ghost.webp",
+          "image_file": "3_emotes_wizardhero_fire_dl.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "😍",
+            "😘"
           ]
         },
         {
-          "image_file": "Trophy_Goblin.webp",
+          "image_file": "3_emotes_icegolemhero_rise_dl.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "😘",
+            "😊"
           ]
         },
         {
-          "image_file": "Santa_Ice_Spirit.webp",
+          "image_file": "3_emotes_wizardhero_magictrick_dl.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "👍",
+            "😭"
           ]
         },
         {
-          "image_file": "Santa_Ice_Wizard.webp",
+          "image_file": "3_emotes_wizardhero_pyromaniac_dl.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "👍",
+            "😘"
           ]
         },
         {
-          "image_file": "Grass_Ram.webp",
+          "image_file": "3_emotes_icegolemhero_evil_dl.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "😊",
+            "😭"
           ]
         },
         {
-          "image_file": "Bola_Ram_Rider.webp",
+          "image_file": "3_emotes_wizardhero_itsfine_dl.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "😭",
+            "🥰"
           ]
         },
         {
-          "image_file": "Lion_Dance_Hoggy.webp",
+          "image_file": "3_emotes_goblin_pocketwatch_dl.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "🙏",
+            "😘"
           ]
         },
         {
-          "image_file": "Coins_Hoggy.webp",
+          "image_file": "3_emotes_icegolemhero_vanish_dl.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "🥰",
+            "👍"
           ]
         },
         {
-          "image_file": "Rocket_Hoggy.webp",
+          "image_file": "3_emotes_icegolemhero_blizzard_dl.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "👍",
+            "😍"
           ]
         },
         {
-          "image_file": "Noodles_Hoggy.webp",
+          "image_file": "3_emotes_firecracker_succes_dl.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "🙏",
+            "😂"
           ]
         },
         {
-          "image_file": "Dance_Mini_PEKKA.webp",
+          "image_file": "3_emotes_king_thumbdown_dl.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "😂",
+            "🤣"
           ]
         },
         {
-          "image_file": "Sword_Mini_PEKKA.webp",
+          "image_file": "3_Rainbow0001.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "❤️",
+            "😊"
           ]
         },
         {
-          "image_file": "Spatula_Mini_PEKKA.webp",
+          "image_file": "3_emotes_heromusketeer_fire_dl.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "😭",
+            "😂"
           ]
         },
         {
-          "image_file": "Error_Mini_PEKKA.webp",
+          "image_file": "3_emotes_heromusketeer_blowsmoke_dl.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "❤️",
+            "😊"
           ]
         },
         {
-          "image_file": "Third_Anniversary_Goblin.webp",
+          "image_file": "3_emotes_herominipekka_switchon_dl.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "👍",
+            "😍"
           ]
         },
         {
-          "image_file": "Musket_Musketeer.webp",
+          "image_file": "3_emotes_herominipekka_pancakeslash_dl.fla.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "😍",
+            "🤣"
           ]
         },
         {
-          "image_file": "Cake_Rascal.webp",
+          "image_file": "3_emotes_xbow_xmas_dl.webp",
           "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Cake_Giant.webp",
-          "emojis": [
-            "💔",
-            "👎"
+            "🙏",
+            "🤣"
           ]
         }
       ]
     },
-
     {
       "identifier": "4",
-      "name": "Clash Royale 4",
-      "publisher": "Nikunj Rathod",
+      "name": "Clash Royale - Pack 4",
+      "publisher": "Supercell",
       "tray_image_file": "tray_goblin.png",
-      "publisher_email": "nikunjrathod3011@gmail.com",
-      "publisher_website": "nikunj3011.github.io",
+      "publisher_email": "",
+      "publisher_website": "https://fankit.supercell.com/",
       "privacy_policy_website": "",
       "license_agreement_website": "",
       "stickers": [
         {
-          "image_file": "Painting_Ram_Rider.webp",
+          "image_file": "4_emotes_heroknight_shieldcharge_dl.webp",
           "emojis": [
-            "☕",
-            "🙂"
+            "🙏",
+            "😊"
           ]
         },
         {
-          "image_file": "Muscle_Princess.webp",
+          "image_file": "4_emotes_heroknight_santadance_dl.webp",
           "emojis": [
-            "😄",
-            "😀"
+            "🙏",
+            "😘"
           ]
         },
         {
-          "image_file": "Champion_Trophy_Goblin.webp",
+          "image_file": "4_emotes_heroknight_moustachedance_dl.webp",
           "emojis": [
-            "😆",
+            "😊",
+            "🥰"
+          ]
+        },
+        {
+          "image_file": "4_emotes_herogiant_xmastreeball_dl.webp",
+          "emojis": [
+            "😂",
+            "😘"
+          ]
+        },
+        {
+          "image_file": "4_emotes_golem_susrock_dl.webp",
+          "emojis": [
+            "👍",
+            "😍"
+          ]
+        },
+        {
+          "image_file": "4_emotes_golem_sneaky_dl.webp",
+          "emojis": [
+            "😍",
+            "👍"
+          ]
+        },
+        {
+          "image_file": "4_emotes_herogiant_cometome_dl.webp",
+          "emojis": [
+            "🥰",
+            "👍"
+          ]
+        },
+        {
+          "image_file": "4_emotes_goblin_ldance_dl.webp",
+          "emojis": [
+            "😘",
+            "🙏"
+          ]
+        },
+        {
+          "image_file": "4_emotes_herogiant_shoryuken_dl.webp",
+          "emojis": [
+            "😍",
+            "🙏"
+          ]
+        },
+        {
+          "image_file": "4_emotes_heromusketeer_gotcha_dl.webp",
+          "emojis": [
+            "👍",
+            "😍"
+          ]
+        },
+        {
+          "image_file": "4_emotes_heroknight_sweatoff_dl.webp",
+          "emojis": [
+            "👍",
+            "🥰"
+          ]
+        },
+        {
+          "image_file": "4_emotes_herominipekka_siren_dl.webp",
+          "emojis": [
+            "😂",
+            "😊"
+          ]
+        },
+        {
+          "image_file": "4_emotes_royalhogsevo_nyanhog_dl.webp",
+          "emojis": [
+            "😂",
+            "😍"
+          ]
+        },
+        {
+          "image_file": "4_emotes_musketeer_animekawaii_dl.webp",
+          "emojis": [
+            "😍",
+            "🥰"
+          ]
+        },
+        {
+          "image_file": "4_emotes_musketeer_animecrying_dl.webp",
+          "emojis": [
+            "🤣",
+            "😍"
+          ]
+        },
+        {
+          "image_file": "4_emotes_royalhogsevo_flying_dl.webp",
+          "emojis": [
+            "😘",
+            "😊"
+          ]
+        },
+        {
+          "image_file": "4_emotes_royalhogsevo_phone_dl.webp",
+          "emojis": [
+            "😘",
+            "❤️"
+          ]
+        },
+        {
+          "image_file": "4_emotes_musketeer_animetakeaim_dl.webp",
+          "emojis": [
+            "😭",
+            "😘"
+          ]
+        },
+        {
+          "image_file": "4_emotes_musketeer_animeshocked_dl.webp",
+          "emojis": [
+            "😊",
+            "❤️"
+          ]
+        },
+        {
+          "image_file": "4_emotes_royalhogsevo_porco_dl.webp",
+          "emojis": [
+            "😊",
+            "😭"
+          ]
+        },
+        {
+          "image_file": "4_King_Handshake.webp",
+          "emojis": [
+            "😘",
+            "😍"
+          ]
+        },
+        {
+          "image_file": "4_Ghost_Boo.webp",
+          "emojis": [
+            "😂",
+            "👍"
+          ]
+        },
+        {
+          "image_file": "4_emotes_barbarian_hornshand_dl.webp",
+          "emojis": [
+            "😘",
             "😂"
           ]
         },
         {
-          "image_file": "Kiss_Log.webp",
+          "image_file": "4_emotes_skeletonarmyevo_skulldown_dl.webp",
           "emojis": [
-            "😩",
-            "😰"
+            "😘",
+            "🙏"
           ]
         },
         {
-          "image_file": "Crying_Log.webp",
+          "image_file": "4_emotes_royalghostevo_thinking_dl.webp",
           "emojis": [
-            "😭",
-            "💧"
+            "😂",
+            "❤️"
           ]
         },
         {
-          "image_file": "Happy_Royal_Ghost.webp",
+          "image_file": "4_emotes_royalghostevo_vanish_dl.webp",
+          "emojis": [
+            "😂",
+            "🙏"
+          ]
+        },
+        {
+          "image_file": "4_emotes_skeletonarmyevo_inmune_dl.webp",
+          "emojis": [
+            "😂",
+            "🥰"
+          ]
+        },
+        {
+          "image_file": "4_emotes_royalghostevo_cooper_dl.webp",
           "emojis": [
             "😍",
-            "♥"
+            "👍"
           ]
         },
         {
-          "image_file": "Eastern_Bunny_Hoggy.webp",
+          "image_file": "4_emotes_skeletonarmyevo_helmetcleaning_dl.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "🙏",
+            "🤣"
           ]
         },
         {
-          "image_file": "Eastern_Egg_Dragon.webp",
+          "image_file": "4_emotes_electrowizard_mercury_dl.webp",
           "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Butterfly_PEKKA.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Flower_Miner.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Goblin_Cage_Muscle.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Goblin_Cage_Escape.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Mirror_Prince.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Surrender_Prince.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Surprise_Prince.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Tea_Prince.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Baby_Dragon_Licking.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Baby_Dragon_Kissing.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Thundering_Edragon.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Shocked_Edragon.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Trumpet_Princess.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Fish_Slap.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Surprise_Fisherman.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "ShakingFish.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Anchored_Goblin.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Wet_Fisherman.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Pirate_King.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Sea_Goblin.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Pirate_Hog.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Xkeleton.webp",
-          "emojis": [
-            "💔",
-            "👎"
+            "😊",
+            "🙏"
           ]
         }
       ]
     },
-
     {
       "identifier": "5",
-      "name": "Clash Royale 5",
-      "publisher": "Nikunj Rathod",
+      "name": "Clash Royale - Pack 5",
+      "publisher": "Supercell",
       "tray_image_file": "tray_goblin.png",
-      "publisher_email": "nikunjrathod3011@gmail.com",
-      "publisher_website": "nikunj3011.github.io",
+      "publisher_email": "",
+      "publisher_website": "https://fankit.supercell.com/",
       "privacy_policy_website": "",
       "license_agreement_website": "",
       "stickers": [
         {
-          "image_file": "Angry_Elixer_Golem.webp",
+          "image_file": "5_emotes_skeleton_kiss_dl.webp",
           "emojis": [
-            "☕",
-            "🙂"
+            "😘",
+            "😭"
           ]
         },
         {
-          "image_file": "Applaud_Night_Witch.webp",
+          "image_file": "5_emotes_vinespell_laugh_dl.webp",
           "emojis": [
-            "😄",
-            "😀"
+            "❤️",
+            "👍"
           ]
         },
         {
-          "image_file": "Bandit_Coin.webp",
+          "image_file": "5_emotes_babydragonevo_facelick_dl.webp",
           "emojis": [
-            "😆",
+            "👍",
+            "❤️"
+          ]
+        },
+        {
+          "image_file": "5_emotes_vinespell_heart_dl.webp",
+          "emojis": [
+            "👍",
+            "🤣"
+          ]
+        },
+        {
+          "image_file": "5_emotes_babydragonevo_beware_dl.webp",
+          "emojis": [
+            "👍",
+            "🤣"
+          ]
+        },
+        {
+          "image_file": "5_emotes_babydragonevo_cuteyawn_dl.webp",
+          "emojis": [
+            "🤣",
             "😂"
           ]
         },
         {
-          "image_file": "Bomb_Balloon.webp",
+          "image_file": "5_emotes_babydragonevo_tailwagging_dl.webp",
           "emojis": [
-            "😩",
-            "😰"
+            "👍",
+            "❤️"
           ]
         },
         {
-          "image_file": "Champion_Tournament_King.webp",
-          "emojis": [
-            "😭",
-            "💧"
-          ]
-        },
-        {
-          "image_file": "Chiken_Royale.webp",
+          "image_file": "5_emotes_babydragon_firebreak_dl.webp",
           "emojis": [
             "😍",
-            "♥"
+            "😂"
           ]
         },
         {
-          "image_file": "Confetti_Goblin.webp",
+          "image_file": "5_emotes_wizardevo_evillaugh_dl.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "👍",
+            "😂"
           ]
         },
         {
-          "image_file": "Crying_Royale_Ghost.webp",
+          "image_file": "5_emotes_furnace_boilingpot_dl.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "😭",
+            "❤️"
           ]
         },
         {
-          "image_file": "Dacing_Dart_Goblin.webp",
+          "image_file": "5_emotes_furnace_lockin_dl.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "🤣",
+            "😍"
           ]
         },
         {
-          "image_file": "Dacing_Giant_Goblin.webp",
+          "image_file": "5_emotes_furnace_lavatears_dl.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "😍",
+            "😭"
           ]
         },
         {
-          "image_file": "Deal_with_it_Princess.webp",
+          "image_file": "5_teslaEmote.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "😍",
+            "😂"
           ]
         },
         {
-          "image_file": "Elixer_Golem_Raising.webp",
+          "image_file": "5_emotes_goldenknight_mewing_dl.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "😍",
+            "😭"
           ]
         },
         {
-          "image_file": "Festival_Hoggy.webp",
+          "image_file": "5_emotes_barbarianevo_dl.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "🥰",
+            "😭"
           ]
         },
         {
-          "image_file": "Firecracker_Confetti.webp",
+          "image_file": "5_emotes_mergemaiden_spiritpower_dl.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "😘",
+            "❤️"
           ]
         },
         {
-          "image_file": "Flame_Miner.webp",
+          "image_file": "5_emotes_mergemaiden_moodchange_dl.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "🤣",
+            "😭"
           ]
         },
         {
-          "image_file": "Gamer_King.webp",
+          "image_file": "5_emotes_mergemaiden_duality_dl.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "🥰",
+            "👍"
           ]
         },
         {
-          "image_file": "Globin_Costume.webp",
+          "image_file": "5_emotes_mergemaiden_conflictingemotions_dl.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "❤️",
+            "🥰"
           ]
         },
         {
-          "image_file": "Globinstein_Monster.webp",
+          "image_file": "5_emotes_mergemaiden_beatingsword_dl.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "🤣",
+            "😭"
           ]
         },
         {
-          "image_file": "Hongbao_Miner.webp",
+          "image_file": "5_emotes_text_hi_dl.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "🥰",
+            "😭"
           ]
         },
         {
-          "image_file": "Kiss_Night_Witch.webp",
+          "image_file": "5_emotes_text_bye_dl.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "👍",
+            "❤️"
           ]
         },
         {
-          "image_file": "Mariachi_Eskeleton.webp",
+          "image_file": "5_emotes_text_exclamation_dl.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "🤣",
+            "😭"
           ]
         },
         {
-          "image_file": "New_Year_Bomber.webp",
+          "image_file": "5_emotes_infernodragonevo_hottonge_dl.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "❤️",
+            "😭"
           ]
         },
         {
-          "image_file": "Night_Witch_Catrina.webp",
+          "image_file": "5_emotes_executionerevo_anger_dl.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "😭",
+            "🥰"
           ]
         },
         {
-          "image_file": "Nutcracker_Barbarian.webp",
+          "image_file": "5_emotes_babydragon_taming_dl.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "😍",
+            "😊"
           ]
         },
         {
-          "image_file": "Santa_Giant.webp",
+          "image_file": "5_emotes_infernodragonevo_kingofthetower_dl.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "😂",
+            "😍"
           ]
         },
         {
-          "image_file": "Stuned_Miner.webp",
+          "image_file": "5_emotes_infernodragonevo_crownmelt_dl.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "😭",
+            "😂"
           ]
         },
         {
-          "image_file": "Radiant_Log.webp",
+          "image_file": "5_emotes_text_interrogation_dl.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "❤️",
+            "😊"
           ]
         },
         {
-          "image_file": "Treasure_Rascal.webp",
+          "image_file": "5_emotes_text_ellipsis_dl.webp",
           "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Witch_Catrina.webp",
-          "emojis": [
-            "💔",
-            "👎"
+            "😊",
+            "🥰"
           ]
         }
       ]
     },
-
     {
       "identifier": "6",
-      "name": "Clash Royale 6",
-      "publisher": "Nikunj Rathod",
+      "name": "Clash Royale - Pack 6",
+      "publisher": "Supercell",
       "tray_image_file": "tray_goblin.png",
-      "publisher_email": "nikunjrathod3011@gmail.com",
-      "publisher_website": "nikunj3011.github.io",
+      "publisher_email": "",
+      "publisher_website": "https://fankit.supercell.com/",
       "privacy_policy_website": "",
       "license_agreement_website": "",
       "stickers": [
         {
-          "image_file": "10th_Anniversary_Supercel_King.webp",
+          "image_file": "6_emotes_king_redbutton_dl.webp",
           "emojis": [
-            "☕",
-            "🙂"
+            "❤️",
+            "🤣"
           ]
         },
         {
-          "image_file": "Angry_Log.webp",
+          "image_file": "6_emotes_witchevo_towinornottowin_dl.webp",
           "emojis": [
-            "😄",
-            "😀"
+            "❤️",
+            "🙏"
           ]
         },
         {
-          "image_file": "Archer_cleaning_arrowhead.webp",
+          "image_file": "6_emotes_witchevo_skulltreasure_dl.webp",
           "emojis": [
-            "😆",
+            "😭",
+            "🙏"
+          ]
+        },
+        {
+          "image_file": "6_emotes_witchevo_skeletonheal_dl.webp",
+          "emojis": [
+            "👍",
+            "😘"
+          ]
+        },
+        {
+          "image_file": "6_emotes_witchevo_scaryshadow_dl.webp",
+          "emojis": [
+            "🥰",
+            "😊"
+          ]
+        },
+        {
+          "image_file": "6_emotes_witch_skelerise_dl.webp",
+          "emojis": [
+            "😍",
+            "😭"
+          ]
+        },
+        {
+          "image_file": "6_emotes_skeleton_bitingnails_dl.webp",
+          "emojis": [
+            "👍",
+            "😘"
+          ]
+        },
+        {
+          "image_file": "6_emotes_lumberjack_bottle_dl.webp",
+          "emojis": [
+            "😂",
+            "😘"
+          ]
+        },
+        {
+          "image_file": "6_Emote_Nope.webp",
+          "emojis": [
+            "❤️",
+            "👍"
+          ]
+        },
+        {
+          "image_file": "6_Emote_Princess_YoChill.webp",
+          "emojis": [
+            "😭",
+            "😍"
+          ]
+        },
+        {
+          "image_file": "6_Emote_ExecutionerEvo_TasteofRevenge.webp",
+          "emojis": [
+            "😍",
+            "🙏"
+          ]
+        },
+        {
+          "image_file": "6_Emote_ExecutionerEvo_Anger.webp",
+          "emojis": [
+            "🥰",
+            "🤣"
+          ]
+        },
+        {
+          "image_file": "6_Emote_Boss_Bandit_Paybacktime.webp",
+          "emojis": [
+            "👍",
+            "🙏"
+          ]
+        },
+        {
+          "image_file": "6_Emote_Boss_Bandit_Focus.webp",
+          "emojis": [
+            "😘",
             "😂"
           ]
         },
         {
-          "image_file": "Archer_with_Hood.webp",
-          "emojis": [
-            "😩",
-            "😰"
-          ]
-        },
-        {
-          "image_file": "Boombox_PEKKA.webp",
-          "emojis": [
-            "😭",
-            "💧"
-          ]
-        },
-        {
-          "image_file": "Cake_Battle_Healer.webp",
+          "image_file": "6_Emote_Boss_Bandit_Grenade.webp",
           "emojis": [
             "😍",
-            "♥"
+            "😘"
           ]
         },
         {
-          "image_file": "Dark_Price_Crying.webp",
+          "image_file": "6_Emote_King_RocketRide.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "😍",
+            "😂"
           ]
         },
         {
-          "image_file": "Dissent_Magic_Archer.webp",
+          "image_file": "6_Emote_King_ClassicIconScream.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "😊",
+            "😍"
           ]
         },
         {
-          "image_file": "Electro_Giant_Disco.webp",
+          "image_file": "6_Emote_King_ClassicIconDuel.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "🙏",
+            "😂"
           ]
         },
         {
-          "image_file": "Electro_Giant_Hand_Pose.webp",
+          "image_file": "6_Emote_HunterEvo_Netdrop.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "😘",
+            "👍"
           ]
         },
         {
-          "image_file": "FishCake.webp",
+          "image_file": "6_Emote_Barbarian_Bust.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "🤣",
+            "😂"
           ]
         },
         {
-          "image_file": "Goblin_Drowning_Emote.webp",
+          "image_file": "6_Emote_Balloon_Birthday.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "😘",
+            "🤣"
           ]
         },
         {
-          "image_file": "Goblin_Top_Hat_Dance.webp",
+          "image_file": "6_Emote_Yeah.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "❤️",
+            "😘"
           ]
         },
         {
-          "image_file": "Golden_Hog.webp",
+          "image_file": "6_Emote_RuneGiant_ToothPick.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "😂",
+            "😘"
           ]
         },
         {
-          "image_file": "Golem_with_Boat.webp",
+          "image_file": "6_Emote_RuneGiant_BuffPower.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "😊",
+            "🥰"
           ]
         },
         {
-          "image_file": "Guard_with_Crown.webp",
+          "image_file": "6_Emote_RuneGiant_BigLaugh.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "😍",
+            "👍"
           ]
         },
         {
-          "image_file": "Hooray_Ram_Rider.webp",
+          "image_file": "6_Emote_King_ShareCry.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "🙏",
+            "❤️"
           ]
         },
         {
-          "image_file": "Hunter_Hat.webp",
+          "image_file": "6_Emote_Heheheha.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "😘",
+            "🥰"
           ]
         },
         {
-          "image_file": "Interrupted_Infernal_Dragon.webp",
+          "image_file": "6_Emote_DartGoblin_PoisonFireworks.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "❤️",
+            "😍"
           ]
         },
         {
-          "image_file": "Knight_Sweating.webp",
+          "image_file": "6_Emote_Chef_ChefsKiss.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "🥰",
+            "😊"
           ]
         },
         {
-          "image_file": "Lava_Hound_Explosion.webp",
+          "image_file": "6_Emote_Firecracker_Warmup.webp",
           "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "PEKKA_Balloon.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Pony_Charge.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Prince_Rainbow.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Royal_Giant_Cannon.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Skeleton_Snorkel.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Slowmo_Archer.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Sneaky_Bandit.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Sparky_Surprise.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Summer_PEKKA.webp",
-          "emojis": [
-            "💔",
-            "👎"
+            "🙏",
+            "🥰"
           ]
         }
       ]
     },
-
     {
       "identifier": "7",
-      "name": "Clash Royale 7",
-      "publisher": "Nikunj Rathod",
+      "name": "Clash Royale - Pack 7",
+      "publisher": "Supercell",
       "tray_image_file": "tray_goblin.png",
-      "publisher_email": "nikunjrathod3011@gmail.com",
-      "publisher_website": "nikunj3011.github.io",
+      "publisher_email": "",
+      "publisher_website": "https://fankit.supercell.com/",
       "privacy_policy_website": "",
       "license_agreement_website": "",
       "stickers": [
         {
-          "image_file": "Battle_Healer_Cake_Throw.webp",
-          "emojis": [
-            "☕",
-            "🙂"
-          ]
-        },
-        {
-          "image_file": "Bowler_Basketball.webp",
-          "emojis": [
-            "😄",
-            "😀"
-          ]
-        },
-        {
-          "image_file": "Bowler_Gift.webp",
-          "emojis": [
-            "😆",
-            "😂"
-          ]
-        },
-        {
-          "image_file": "Bowler_Sad.webp",
-          "emojis": [
-            "😩",
-            "😰"
-          ]
-        },
-        {
-          "image_file": "Dart_Goblin_Backfire.webp",
+          "image_file": "7_Emote_Goblin_Challenge24.webp",
           "emojis": [
             "😭",
-            "💧"
+            "🙏"
           ]
         },
         {
-          "image_file": "Electro_Giant_Energy_Flow.webp",
+          "image_file": "7_Emote_Chef_RollupSleeves.webp",
+          "emojis": [
+            "❤️",
+            "🤣"
+          ]
+        },
+        {
+          "image_file": "7_Emote_HogRider_JingleBells.webp",
+          "emojis": [
+            "🤣",
+            "🥰"
+          ]
+        },
+        {
+          "image_file": "7_Emote_SnowballEvo_RollingDown.webp",
+          "emojis": [
+            "🤣",
+            "😘"
+          ]
+        },
+        {
+          "image_file": "7_Emote_MusketeerEvo_ShootInRange.webp",
+          "emojis": [
+            "😂",
+            "🤣"
+          ]
+        },
+        {
+          "image_file": "7_Emote_Lumberjack_Western.webp",
+          "emojis": [
+            "😂",
+            "🤣"
+          ]
+        },
+        {
+          "image_file": "7_Emote_Hogrider_Sunset.webp",
+          "emojis": [
+            "😭",
+            "👍"
+          ]
+        },
+        {
+          "image_file": "7_Emote_CannonEvo_CheerFulheart.webp",
+          "emojis": [
+            "🤣",
+            "😘"
+          ]
+        },
+        {
+          "image_file": "7_Emote_Barbarian_Banjo.webp",
+          "emojis": [
+            "🤣",
+            "😭"
+          ]
+        },
+        {
+          "image_file": "7_Emote_Grrr.webp",
+          "emojis": [
+            "😊",
+            "😭"
+          ]
+        },
+        {
+          "image_file": "7_Emote_GoblinsteinDoctor_EvilLaugh.webp",
+          "emojis": [
+            "😭",
+            "🥰"
+          ]
+        },
+        {
+          "image_file": "7_Emote_Goblinstein_Scary.webp",
+          "emojis": [
+            "😘",
+            "😭"
+          ]
+        },
+        {
+          "image_file": "7_Emote_Goblinstein_HatsOff.webp",
+          "emojis": [
+            "😭",
+            "❤️"
+          ]
+        },
+        {
+          "image_file": "7_Emote_Goblinstein_BoltScrew.webp",
+          "emojis": [
+            "👍",
+            "🤣"
+          ]
+        },
+        {
+          "image_file": "7_Emote_Electrodragonevo_SparkPlay.webp",
+          "emojis": [
+            "❤️",
+            "😊"
+          ]
+        },
+        {
+          "image_file": "7_Emote_GoblinBush_Chillin.webp",
+          "emojis": [
+            "🥰",
+            "😊"
+          ]
+        },
+        {
+          "image_file": "7_Emote_GoblinBush_TikiDance.webp",
+          "emojis": [
+            "🙏",
+            "🥰"
+          ]
+        },
+        {
+          "image_file": "7_Emote_GoblinCageEvo_Flex.webp",
+          "emojis": [
+            "😘",
+            "❤️"
+          ]
+        },
+        {
+          "image_file": "7_Emote_GoblinCageEvo_BreakFree.webp",
+          "emojis": [
+            "😭",
+            "🙏"
+          ]
+        },
+        {
+          "image_file": "7_Emote_HogFlush.webp",
+          "emojis": [
+            "😂",
+            "🙏"
+          ]
+        },
+        {
+          "image_file": "7_Emote_SkeletonTearsPool.webp",
+          "emojis": [
+            "❤️",
+            "👍"
+          ]
+        },
+        {
+          "image_file": "7_Emote_GoblinGiantEvoParade.webp",
+          "emojis": [
+            "😭",
+            "👍"
+          ]
+        },
+        {
+          "image_file": "7_Emote_BarbarianToiletPaper.webp",
+          "emojis": [
+            "😊",
+            "🥰"
+          ]
+        },
+        {
+          "image_file": "7_Emote_GoblinDrillEvo.webp",
+          "emojis": [
+            "🤣",
+            "😍"
+          ]
+        },
+        {
+          "image_file": "7_Emote_GoblinQueenCry.webp",
+          "emojis": [
+            "🤣",
+            "🙏"
+          ]
+        },
+        {
+          "image_file": "7_Emote_GoblinQueenAngry.webp",
+          "emojis": [
+            "🥰",
+            "👍"
+          ]
+        },
+        {
+          "image_file": "7_Emote_GoblinQueenLaugh.webp",
+          "emojis": [
+            "😘",
+            "👍"
+          ]
+        },
+        {
+          "image_file": "7_Emote_GoblinQueenThumbsDown.webp",
+          "emojis": [
+            "😊",
+            "👍"
+          ]
+        },
+        {
+          "image_file": "7_Emote_king_hide.webp",
           "emojis": [
             "😍",
-            "♥"
+            "🤣"
           ]
         },
         {
-          "image_file": "Electro_Giant_Speechless.webp",
+          "image_file": "7_Emote_GoblinBarrelEvo_dance.webp",
           "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Elite_Barbarian_Candy.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Elite_Barbarian_Kiss.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Elixir_Golem_Candle_Head.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Executioner_chef_Kiss.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Firecracker_Heart.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Goblin_Drill_Drive.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Hongbao_Princess.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Ice_Wizard_Dancer.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Ice_Wizard_melt_sweat.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Ice_Wizard_Popcorn.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "King_Book.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Logmas.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Lumberjack_Logmas.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Mega_Knight_Ball_Clash.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Mega_Knight_Smash.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Mega_Knight_Thumbs_Up.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Mortar_misfuntion.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Mortar_Tower_Destroyed.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Mother_Witch_Laugh.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Pekka_Blossom.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Skeleton_Dragon_Foam_Fingers.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Skeleton_Dragon_Jaw_Drop.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Sparky_New_Surprise.webp",
-          "emojis": [
-            "💔",
-            "👎"
+            "😭",
+            "🙏"
           ]
         }
       ]
     },
-
     {
       "identifier": "8",
-      "name": "Clash Royale 8",
-      "publisher": "Nikunj Rathod",
+      "name": "Clash Royale - Pack 8",
+      "publisher": "Supercell",
       "tray_image_file": "tray_goblin.png",
-      "publisher_email": "nikunjrathod3011@gmail.com",
-      "publisher_website": "nikunj3011.github.io",
+      "publisher_email": "",
+      "publisher_website": "https://fankit.supercell.com/",
       "privacy_policy_website": "",
       "license_agreement_website": "",
       "stickers": [
         {
-          "image_file": "Archer_Queen_Crown.webp",
+          "image_file": "8_Emotes_Bowler_Sus.webp",
           "emojis": [
-            "☕",
-            "🙂"
+            "😭",
+            "🤣"
           ]
         },
         {
-          "image_file": "Arrow_Crown.webp",
+          "image_file": "8_Emote_King_Void.webp",
           "emojis": [
-            "😄",
-            "😀"
+            "😭",
+            "😘"
           ]
         },
         {
-          "image_file": "Bat_Embrace.webp",
+          "image_file": "8_Emote_WizardEvo_Magic.webp",
           "emojis": [
-            "😆",
+            "🤣",
+            "👍"
+          ]
+        },
+        {
+          "image_file": "8_Emote_WizardEvo_Kame.webp",
+          "emojis": [
+            "🙏",
+            "❤️"
+          ]
+        },
+        {
+          "image_file": "8_Emote_HogRider_Think.webp",
+          "emojis": [
+            "😘",
+            "😭"
+          ]
+        },
+        {
+          "image_file": "8_Emote_GhostKing_NotPass.webp",
+          "emojis": [
+            "🤣",
             "😂"
           ]
         },
         {
-          "image_file": "Electro_Spirit_Emote.webp",
+          "image_file": "8_Emote_King_SquadBaby.webp",
           "emojis": [
-            "😩",
-            "😰"
+            "❤️",
+            "😊"
           ]
         },
         {
-          "image_file": "Executioner_fruitcake.webp",
+          "image_file": "8_Emote_King_SquadSpiral.webp",
+          "emojis": [
+            "😂",
+            "😘"
+          ]
+        },
+        {
+          "image_file": "8_Emote_Princess_GoAhead.webp",
+          "emojis": [
+            "🥰",
+            "😊"
+          ]
+        },
+        {
+          "image_file": "8_Emote_DaggerDuchess_Menacing.webp",
+          "emojis": [
+            "👍",
+            "😭"
+          ]
+        },
+        {
+          "image_file": "8_Emote_DaggerDuchess_Heartslash.webp",
+          "emojis": [
+            "🥰",
+            "🙏"
+          ]
+        },
+        {
+          "image_file": "8_Emote_DaggerDuchess_Bored.webp",
+          "emojis": [
+            "😊",
+            "😂"
+          ]
+        },
+        {
+          "image_file": "8_Emote_King_ZapCrown.webp",
+          "emojis": [
+            "🥰",
+            "🙏"
+          ]
+        },
+        {
+          "image_file": "8_Emote_King_Sweating.webp",
           "emojis": [
             "😭",
-            "💧"
+            "😍"
           ]
         },
         {
-          "image_file": "FireSpiritCandle6th.webp",
+          "image_file": "8_Emote_Goblin_ZapDance.webp",
+          "emojis": [
+            "😂",
+            "🤣"
+          ]
+        },
+        {
+          "image_file": "8_Emote_ElectroGiant_ZapDrink.webp",
+          "emojis": [
+            "😊",
+            "👍"
+          ]
+        },
+        {
+          "image_file": "8_Emote_ElectroGiant_PartyCake.webp",
+          "emojis": [
+            "🥰",
+            "🙏"
+          ]
+        },
+        {
+          "image_file": "8_Emote_WallBreakersEvo_Lovepocalypse.webp",
+          "emojis": [
+            "🙏",
+            "😍"
+          ]
+        },
+        {
+          "image_file": "8_Emote_WallBreakersEvo_Kamikaze.webp",
+          "emojis": [
+            "😂",
+            "🥰"
+          ]
+        },
+        {
+          "image_file": "8_Emote_BomberEvo_BoomGlasses.webp",
+          "emojis": [
+            "😂",
+            "🤣"
+          ]
+        },
+        {
+          "image_file": "8_Emote_BomberEvo_BombHeart.webp",
+          "emojis": [
+            "🙏",
+            "❤️"
+          ]
+        },
+        {
+          "image_file": "8_Emote_Cannoneer_Pyro.webp",
+          "emojis": [
+            "😊",
+            "😂"
+          ]
+        },
+        {
+          "image_file": "8_Emote_Cannoneer_Lever.webp",
+          "emojis": [
+            "👍",
+            "🥰"
+          ]
+        },
+        {
+          "image_file": "8_Emote_Cannoneer_Boom.webp",
+          "emojis": [
+            "❤️",
+            "🥰"
+          ]
+        },
+        {
+          "image_file": "8_Emote_ValkyrieEvo_Hairspin.webp",
+          "emojis": [
+            "😂",
+            "❤️"
+          ]
+        },
+        {
+          "image_file": "8_Emote_ValkyrieEvo_Reveal.webp",
+          "emojis": [
+            "😘",
+            "😭"
+          ]
+        },
+        {
+          "image_file": "8_Emote_ValkyrieEvo_AxeRise.webp",
           "emojis": [
             "😍",
-            "♥"
+            "😭"
           ]
         },
         {
-          "image_file": "Giant_Skeleton_Clueless.webp",
+          "image_file": "8_Emote_Lumberjack_Cheers.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "😂",
+            "😭"
           ]
         },
         {
-          "image_file": "Gob-arian.webp",
+          "image_file": "8_emote_lumberjack_clashmas.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "😊",
+            "🙏"
           ]
         },
         {
-          "image_file": "Goblin_Bone_Ritual.webp",
+          "image_file": "8_emote_icespiritevo_swordfreeze.webp",
           "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Golden_Knight_Fail.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Golden_Knight_Glamour.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Heres_johnny.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Hog_Booty_Dance.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Hog_Morph.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Hspirit_Buddy_Jesus.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Hspirit_jiggle.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Hspirit_Personality212121.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Jack-o-bat.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Love_Miners.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Menacing_Queen.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Mighty_Miner_Awesome.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Mighty_Miner_screw_off.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Miner_wth.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Rocket_Goblin_Ride.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Royale_letdown_royal_giant_emote.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Skeleton_dancing.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Skeleton_King_Mace.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Super_Hound_Migraine.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Witch_skeleton_love.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Witch_Skeleton_Raise.webp",
-          "emojis": [
-            "💔",
-            "👎"
+            "😊",
+            "❤️"
           ]
         }
       ]
     },
-
     {
       "identifier": "9",
-      "name": "Clash Royale 9",
-      "publisher": "Nikunj Rathod",
+      "name": "Clash Royale - Pack 9",
+      "publisher": "Supercell",
       "tray_image_file": "tray_goblin.png",
-      "publisher_email": "nikunjrathod3011@gmail.com",
-      "publisher_website": "nikunj3011.github.io",
+      "publisher_email": "",
+      "publisher_website": "https://fankit.supercell.com/",
       "privacy_policy_website": "",
       "license_agreement_website": "",
       "stickers": [
         {
-          "image_file": "Barb_donkey_kong.webp",
+          "image_file": "9_emote_goblin_grinch.webp",
           "emojis": [
-            "☕",
-            "🙂"
+            "😘",
+            "😭"
           ]
         },
         {
-          "image_file": "Barb_drank.webp",
+          "image_file": "9_emote_goblin_boohoo.webp",
           "emojis": [
-            "😄",
-            "😀"
-          ]
-        },
-        {
-          "image_file": "Barbarian_bttf.webp",
-          "emojis": [
-            "😆",
+            "🙏",
             "😂"
           ]
         },
         {
-          "image_file": "Cannon_Royale_Giant.webp",
+          "image_file": "9_emotes_littleprince_wink_dl.webp",
           "emojis": [
-            "😩",
-            "😰"
+            "😊",
+            "👍"
           ]
         },
         {
-          "image_file": "Firecracker_Santa.webp",
+          "image_file": "9_emotes_littleprince_taunt_dl.webp",
           "emojis": [
-            "😭",
-            "💧"
+            "🤣",
+            "😍"
           ]
         },
         {
-          "image_file": "Giant_Skeleton_Loose_Jaw.webp",
+          "image_file": "9_emotes_littleprince_attack_dl.webp",
           "emojis": [
             "😍",
-            "♥"
+            "😂"
           ]
         },
         {
-          "image_file": "King_luigi.webp",
+          "image_file": "9_emotes_archerevo_braid.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "❤️",
+            "🤣"
           ]
         },
         {
-          "image_file": "King_wario.webp",
+          "image_file": "9_emote_frame_2.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "🙏",
+            "🤣"
           ]
         },
         {
-          "image_file": "Mini_Pekka_Rage.webp",
+          "image_file": "9_emotes_skeletonevo_sword.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "🙏",
+            "😂"
           ]
         },
         {
-          "image_file": "Pancake_mpekka.webp",
+          "image_file": "9_emotes_royalgiantevo_angry.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "😊",
+            "❤️"
           ]
         },
         {
-          "image_file": "Pekka_Activate.webp",
+          "image_file": "9_emotes_king_nowifi.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "🙏",
+            "😍"
           ]
         },
         {
-          "image_file": "Pekka_Battlefly.webp",
+          "image_file": "9_emotes_mortarevo_goblin.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "😭",
+            "😂"
+          ]
+        },
+        {
+          "image_file": "9_emotes_firecrackerevo_supersize.webp",
+          "emojis": [
+            "😭",
+            "😘"
+          ]
+        },
+        {
+          "image_file": "9_emotes_barbarianevo_power.webp",
+          "emojis": [
+            "❤️",
+            "🤣"
+          ]
+        },
+        {
+          "image_file": "9_emotes_skeletonking_rockevolution.webp",
+          "emojis": [
+            "😘",
+            "😊"
+          ]
+        },
+        {
+          "image_file": "9_emotes_rascals_lovegum.webp",
+          "emojis": [
+            "😭",
+            "🙏"
+          ]
+        },
+        {
+          "image_file": "9_emotes_goldenknight_rockevolution.webp",
+          "emojis": [
+            "👍",
+            "🙏"
+          ]
+        },
+        {
+          "image_file": "9_emotes_goldenknight_hairspin.webp",
+          "emojis": [
+            "🤣",
+            "😭"
+          ]
+        },
+        {
+          "image_file": "9_emotes_battlehealer_rainbow.webp",
+          "emojis": [
+            "🥰",
+            "👍"
+          ]
+        },
+        {
+          "image_file": "9_emotes_archerqueen_rockevolution.webp",
+          "emojis": [
+            "😭",
+            "👍"
+          ]
+        },
+        {
+          "image_file": "9_emotes_megaminion_supercellmake.webp",
+          "emojis": [
+            "😂",
+            "🥰"
+          ]
+        },
+        {
+          "image_file": "9_emotes_knightevo_arrow.webp",
+          "emojis": [
+            "😘",
+            "❤️"
+          ]
+        },
+        {
+          "image_file": "9_emotes_king_clasharamanap.webp",
+          "emojis": [
+            "😍",
+            "👍"
+          ]
+        },
+        {
+          "image_file": "9_emotes_king_clasharamaclap.webp",
+          "emojis": [
+            "😂",
+            "😊"
+          ]
+        },
+        {
+          "image_file": "9_emotes_hogrider_clasharamaride.webp",
+          "emojis": [
+            "😭",
+            "🤣"
+          ]
+        },
+        {
+          "image_file": "9_emotes_barbarian_clasharamapecs.webp",
+          "emojis": [
+            "😘",
+            "👍"
+          ]
+        },
+        {
+          "image_file": "9_emotes_king_unfold.webp",
+          "emojis": [
+            "😭",
+            "😂"
+          ]
+        },
+        {
+          "image_file": "9_emotes_king_redbutton.webp",
+          "emojis": [
+            "😭",
+            "🙏"
+          ]
+        },
+        {
+          "image_file": "9_emotes_royalrecruitevo_wakeup.webp",
+          "emojis": [
+            "😊",
+            "👍"
+          ]
+        },
+        {
+          "image_file": "9_emotes_king_chessthink.webp",
+          "emojis": [
+            "😭",
+            "🤣"
+          ]
+        },
+        {
+          "image_file": "9_emotes_king_chessquit.webp",
+          "emojis": [
+            "😊",
+            "😍"
           ]
         }
       ]
     },
-
     {
       "identifier": "10",
-      "name": "Clash Royale 10",
-      "publisher": "Nikunj Rathod",
+      "name": "Clash Royale - Pack 10",
+      "publisher": "Supercell",
       "tray_image_file": "tray_goblin.png",
-      "publisher_email": "nikunjrathod3011@gmail.com",
-      "publisher_website": "nikunj3011.github.io",
+      "publisher_email": "",
+      "publisher_website": "https://fankit.supercell.com/",
       "privacy_policy_website": "",
       "license_agreement_website": "",
       "stickers": [
         {
-          "image_file": "Barbarian_Watching_You.webp",
+          "image_file": "10_emotes_chess_chesscrush.webp",
           "emojis": [
-            "☕",
-            "🙂"
+            "😍",
+            "👍"
           ]
         },
         {
-          "image_file": "Bat_emote_I_guess.webp",
+          "image_file": "10_emotes_king_chesscheck.webp",
           "emojis": [
-            "😄",
-            "😀"
+            "😂",
+            "👍"
           ]
         },
         {
-          "image_file": "Battle_Healer_Self_Heal.webp",
+          "image_file": "10_emote_frame.webp",
           "emojis": [
-            "😆",
+            "🙏",
+            "🤣"
+          ]
+        },
+        {
+          "image_file": "10_emote_miner_suprised.webp",
+          "emojis": [
+            "❤️",
+            "😊"
+          ]
+        },
+        {
+          "image_file": "10_emote_heal_spirit_confetti.webp",
+          "emojis": [
+            "😭",
+            "❤️"
+          ]
+        },
+        {
+          "image_file": "10_emote_electro_dragon_thundering.webp",
+          "emojis": [
+            "🙏",
+            "❤️"
+          ]
+        },
+        {
+          "image_file": "10_emote_bandit_sneaky.webp",
+          "emojis": [
+            "🙏",
             "😂"
           ]
         },
         {
-          "image_file": "Ebarb_Chest.webp",
-          "emojis": [
-            "😩",
-            "😰"
-          ]
-        },
-        {
-          "image_file": "Elixir_Golem_Party.webp",
-          "emojis": [
-            "😭",
-            "💧"
-          ]
-        },
-        {
-          "image_file": "Firecracker_Santa.webp",
+          "image_file": "10_emote_ice_spirit_christmas.webp",
           "emojis": [
             "😍",
-            "♥"
+            "👍"
           ]
         },
         {
-          "image_file": "Firespirit_SAINT.webp",
+          "image_file": "10_emote_royal_ghost_clap.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "👍",
+            "😊"
           ]
         },
         {
-          "image_file": "Firespirit_SINNER.webp",
+          "image_file": "10_emote_giant_fist.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "😊",
+            "👍"
           ]
         },
         {
-          "image_file": "Goblin_Carnival.webp",
+          "image_file": "10_emote_electro_wizard_thumbs_up.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "😘",
+            "😊"
           ]
         },
         {
-          "image_file": "Hands_Epic_High_Five.webp",
+          "image_file": "10_emote_barbarian_pixel_drank.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "😭",
+            "🥰"
           ]
         },
         {
-          "image_file": "Hog_Rider_Cheerleader.webp",
+          "image_file": "10_emote_pekka_butterfly_02.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "❤️",
+            "😭"
           ]
         },
         {
-          "image_file": "Hog_rider_festive_moon.webp",
+          "image_file": "10_emote_electro_giant_stars.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "😂",
+            "😊"
           ]
         },
         {
-          "image_file": "Hog_Rider_Snog.webp",
+          "image_file": "10_emote_wizard_flame.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "😍",
+            "😊"
           ]
         },
         {
-          "image_file": "Hog_sweater.webp",
+          "image_file": "10_emote_princess_whistle.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "🤣",
+            "😂"
           ]
         },
         {
-          "image_file": "Hogrider_krimpus.webp",
+          "image_file": "10_emote_valkyrie_christmas.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "😘",
+            "🙏"
           ]
         },
         {
-          "image_file": "Intricate_sparky_defense.webp",
+          "image_file": "10_emote_giant_santa.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "😘",
+            "😂"
           ]
         },
         {
-          "image_file": "King_Emperaror.webp",
+          "image_file": "10_emote_fire_spirit.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "👍",
+            "🤣"
           ]
         },
         {
-          "image_file": "Lumberjack_Seeing.webp",
+          "image_file": "10_emote_log_cry.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "🤣",
+            "👍"
           ]
         },
         {
-          "image_file": "Monk_when_no_poison.webp",
+          "image_file": "10_emote_goblin_monster.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "😂",
+            "🤣"
           ]
         },
         {
-          "image_file": "Moonrise_night_witch.webp",
+          "image_file": "10_emote_guard_crown.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "🤣",
+            "😊"
           ]
         },
         {
-          "image_file": "Nightwitch_marceline.webp",
+          "image_file": "10_emote_mighty_miner_stop.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "👍",
+            "🤣"
           ]
         },
         {
-          "image_file": "One_king_cookie_as_a_treat.webp",
+          "image_file": "10_emote_bandit_scream.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "❤️",
+            "🙏"
           ]
         },
         {
-          "image_file": "Phoenix_egg_when_against_log_instead_of_arrows.webp",
+          "image_file": "10_emote_wizard_dab.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "👍",
+            "🥰"
           ]
         },
         {
-          "image_file": "Phoenix_king.webp",
+          "image_file": "10_emote_royal_hog_firework.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "🙏",
+            "❤️"
           ]
         },
         {
-          "image_file": "Proactive_rocket_shield.webp",
+          "image_file": "10_emote_electro_wizard_king.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "🤣",
+            "😭"
           ]
         },
         {
-          "image_file": "Sheep.webp",
+          "image_file": "10_emote_goblin_grin.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "👍",
+            "😘"
           ]
         },
         {
-          "image_file": "Small_woodland_animal_spotted_cursed_hog_go.webp",
+          "image_file": "10_emote_pekka_butterfly_01.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "😂",
+            "😊"
           ]
         },
         {
-          "image_file": "Tesla_High_Voltage.webp",
+          "image_file": "10_emote_goblin_giant_confused.webp",
           "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Valkyrie_krimpus.webp",
-          "emojis": [
-            "💔",
-            "👎"
+            "😊",
+            "😘"
           ]
         }
       ]
     },
-
     {
       "identifier": "11",
-      "name": "Clash Royale 11",
-      "publisher": "Nikunj Rathod",
+      "name": "Clash Royale - Pack 11",
+      "publisher": "Supercell",
       "tray_image_file": "tray_goblin.png",
-      "publisher_email": "nikunjrathod3011@gmail.com",
-      "publisher_website": "nikunj3011.github.io",
+      "publisher_email": "",
+      "publisher_website": "https://fankit.supercell.com/",
       "privacy_policy_website": "",
       "license_agreement_website": "",
       "stickers": [
         {
-          "image_file": "Disco_wizard_balls-fs8.webp",
+          "image_file": "11_Emote_Goblin_Bone_Ritual.webp",
           "emojis": [
-            "☕",
-            "🙂"
+            "🙏",
+            "😍"
           ]
         },
         {
-          "image_file": "Goblin-micdrop.webp",
+          "image_file": "11_emote_royal_hogs_pirate.webp",
           "emojis": [
-            "😄",
-            "😀"
+            "🤣",
+            "🙏"
           ]
         },
         {
-          "image_file": "Goblin-guitarfire.webp",
+          "image_file": "11_emote_heal_spirit_cute.webp",
           "emojis": [
-            "😆",
+            "👍",
             "😂"
           ]
         },
         {
-          "image_file": "So_like_daft_punk.webp",
+          "image_file": "11_emote_rascal_cake.webp",
           "emojis": [
-            "😩",
-            "😰"
+            "🤣",
+            "👍"
           ]
         },
         {
-          "image_file": "Waiting.webp",
+          "image_file": "11_emote_hog_rider_hammer.webp",
           "emojis": [
-            "😭",
-            "💧"
+            "🥰",
+            "😍"
           ]
         },
         {
-          "image_file": "Gobgiant_pussillanimous.webp",
+          "image_file": "11_emote_lumberjack_allseeing.webp",
+          "emojis": [
+            "😂",
+            "🙏"
+          ]
+        },
+        {
+          "image_file": "11_emote_baby_dragon_tongue.webp",
+          "emojis": [
+            "❤️",
+            "😍"
+          ]
+        },
+        {
+          "image_file": "11_emote_royal_hog_gold.webp",
+          "emojis": [
+            "❤️",
+            "🥰"
+          ]
+        },
+        {
+          "image_file": "11_emote_king_angry.webp",
           "emojis": [
             "😍",
-            "♥"
+            "😭"
           ]
         },
         {
-          "image_file": "Boogie.webp",
+          "image_file": "11_emote_baby_dragon_kissing.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "😂",
+            "😭"
           ]
         },
         {
-          "image_file": "Sparks_heart.webp",
+          "image_file": "11_emote_ram_rider_hooray.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "🥰",
+            "❤️"
           ]
         },
         {
-          "image_file": "Golem_rock_rocker.webp",
+          "image_file": "11_emote_miner_candle.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "😭",
+            "👍"
           ]
         },
         {
-          "image_file": "Marcher_heart.webp",
+          "image_file": "11_emote_ice_wizard_popcorn.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "👍",
+            "😍"
           ]
         },
         {
-          "image_file": "Marcher_bow.webp",
+          "image_file": "11_emote_giant_skeleton_forgot.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "😊",
+            "😂"
           ]
         },
         {
-          "image_file": "Golem_tats.webp",
+          "image_file": "11_emote_princess_heart.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "🥰",
+            "😂"
           ]
         },
         {
-          "image_file": "Golem_menace.webp",
+          "image_file": "11_emote_goblin_deal_with_it.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "❤️",
+            "🤣"
           ]
         },
         {
-          "image_file": "Heartbox.webp",
+          "image_file": "11_emote_golem_fire.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "❤️",
+            "👍"
           ]
         },
         {
-          "image_file": "Dabbit.webp",
+          "image_file": "11_emote_hunter_hat.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "🥰",
+            "👍"
           ]
         },
         {
-          "image_file": "Igolem_fist.webp",
+          "image_file": "11_emote_goblin_cage_escape.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "🙏",
+            "❤️"
           ]
         },
         {
-          "image_file": "Igolem_jelek.webp",
+          "image_file": "11_emote_witch_skeleton_raise.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "😍",
+            "😘"
           ]
         },
         {
-          "image_file": "Confetti_thumbup.webp",
+          "image_file": "11_emote_pekka_blossom.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "🤣",
+            "😭"
           ]
         },
         {
-          "image_file": "Igolem_snow.webp",
+          "image_file": "11_emote_goblin_cage_flex.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "😊",
+            "🙏"
           ]
         },
         {
-          "image_file": "King_Pixelated_Laught.webp",
+          "image_file": "11_emote_dark_prince_arrow.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "🤣",
+            "😍"
           ]
         },
         {
-          "image_file": "King_TV_Royale.webp",
+          "image_file": "11_emote_magic_archer_bow.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "😘",
+            "😂"
+          ]
+        },
+        {
+          "image_file": "11_emote_ram_rider_ngry.webp",
+          "emojis": [
+            "😂",
+            "😭"
+          ]
+        },
+        {
+          "image_file": "11_emote_stone_crown.webp",
+          "emojis": [
+            "😂",
+            "👍"
+          ]
+        },
+        {
+          "image_file": "11_emote_dart_goblin_dancing.webp",
+          "emojis": [
+            "😭",
+            "😂"
+          ]
+        },
+        {
+          "image_file": "11_emote_fisherman_shaking_fish.webp",
+          "emojis": [
+            "😘",
+            "❤️"
+          ]
+        },
+        {
+          "image_file": "11_emote_princess_angry.webp",
+          "emojis": [
+            "🥰",
+            "❤️"
+          ]
+        },
+        {
+          "image_file": "11_emote_prince_mirror.webp",
+          "emojis": [
+            "😂",
+            "❤️"
           ]
         }
       ]
     },
-
     {
       "identifier": "12",
-      "name": "Clash Royale 12",
-      "publisher": "Nikunj Rathod",
+      "name": "Clash Royale - Pack 12",
+      "publisher": "Supercell",
       "tray_image_file": "tray_goblin.png",
-      "publisher_email": "nikunjrathod3011@gmail.com",
-      "publisher_website": "nikunj3011.github.io",
+      "publisher_email": "",
+      "publisher_website": "https://fankit.supercell.com/",
       "privacy_policy_website": "",
       "license_agreement_website": "",
       "stickers": [
         {
-          "image_file": "Achieved.webp",
+          "image_file": "12_emote_fisherman_fish_slap.webp",
           "emojis": [
-            "☕",
-            "🙂"
+            "😍",
+            "❤️"
           ]
         },
         {
-          "image_file": "Aggravated.webp",
+          "image_file": "12_emote_royal_hogs_helmet.webp",
           "emojis": [
-            "😄",
-            "😀"
+            "🤣",
+            "😊"
           ]
         },
         {
-          "image_file": "Aim.webp",
+          "image_file": "12_emote_golem_win.webp",
           "emojis": [
-            "😆",
+            "🥰",
+            "🙏"
+          ]
+        },
+        {
+          "image_file": "12_emote_miner_stunned.webp",
+          "emojis": [
+            "😭",
+            "🤣"
+          ]
+        },
+        {
+          "image_file": "12_emote_goblin_juggling.webp",
+          "emojis": [
+            "😭",
             "😂"
           ]
         },
         {
-          "image_file": "Barbarian_Clash-A-Rama_Pecs.webp",
+          "image_file": "12_emote_prince_suprise.webp",
           "emojis": [
-            "😩",
-            "😰"
+            "😊",
+            "❤️"
           ]
         },
         {
-          "image_file": "Evolved_Bat_Spin.webp",
+          "image_file": "12_emote_skeleton_heart_eyes.webp",
           "emojis": [
-            "😭",
-            "💧"
+            "😂",
+            "🤣"
           ]
         },
         {
-          "image_file": "Evolved_Knight_Arrow.webp",
+          "image_file": "12_emote_night_witch_guitar.webp",
+          "emojis": [
+            "🥰",
+            "🤣"
+          ]
+        },
+        {
+          "image_file": "12_emote_prince_polish_sword.webp",
+          "emojis": [
+            "❤️",
+            "🤣"
+          ]
+        },
+        {
+          "image_file": "12_emote_goblin_masterplan.webp",
+          "emojis": [
+            "😊",
+            "🥰"
+          ]
+        },
+        {
+          "image_file": "12_emote_giant_cake.webp",
+          "emojis": [
+            "❤️",
+            "😂"
+          ]
+        },
+        {
+          "image_file": "12_emote_king_book.webp",
+          "emojis": [
+            "😂",
+            "😍"
+          ]
+        },
+        {
+          "image_file": "12_emote_barbarian_nose.webp",
+          "emojis": [
+            "❤️",
+            "😊"
+          ]
+        },
+        {
+          "image_file": "12_emote_giant_goblin_dancing.webp",
+          "emojis": [
+            "👍",
+            "😂"
+          ]
+        },
+        {
+          "image_file": "12_emote_king_nr1.webp",
+          "emojis": [
+            "❤️",
+            "😊"
+          ]
+        },
+        {
+          "image_file": "12_emote_goblin_thumbs_up.webp",
           "emojis": [
             "😍",
-            "♥"
+            "🙏"
           ]
         },
         {
-          "image_file": "Evolved_Royal_Recruit_Wake_Up.webp",
+          "image_file": "12_emote_golden_knight_fail.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "😊",
+            "🤣"
           ]
         },
         {
-          "image_file": "Fail.webp",
+          "image_file": "12_emote_lumberjack_logmas.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "🙏",
+            "😭"
           ]
         },
         {
-          "image_file": "Handkerchief.webp",
+          "image_file": "12_emote_goblin_forfeit.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "😍",
+            "🙏"
           ]
         },
         {
-          "image_file": "Hog_Rider_Clash-A-Rama_Cycle.webp",
+          "image_file": "12_emote_barbarian_bttf.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "😘",
+            "🥰"
           ]
         },
         {
-          "image_file": "Ketawa.webp",
+          "image_file": "12_emote_lava_hound_explosion.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "👍",
+            "❤️"
           ]
         },
         {
-          "image_file": "King_Chess_Check.webp",
+          "image_file": "12_emote_goblin_ohno.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "🙏",
+            "❤️"
           ]
         },
         {
-          "image_file": "King_Chess_Quit.webp",
+          "image_file": "12_emote_inferno_tower.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "🤣",
+            "😍"
           ]
         },
         {
-          "image_file": "King_Chess_Think.webp",
+          "image_file": "12_emote_executioner_fruitcake.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "😂",
+            "👍"
           ]
         },
         {
-          "image_file": "King_Clap.webp",
+          "image_file": "12_emote_witch_skeleton_love.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "👍",
+            "😭"
           ]
         },
         {
-          "image_file": "King_Clash-A-Rama_Alarm_Clock.webp",
+          "image_file": "12_emote_royal_hog_morph.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "❤️",
+            "😘"
           ]
         },
         {
-          "image_file": "King_Red_Button.webp",
+          "image_file": "12_emote_rascal_treasure.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "😂",
+            "🥰"
           ]
         },
         {
-          "image_file": "King_Unfold.webp",
+          "image_file": "12_emote_goblin_hat.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "🤣",
+            "😘"
           ]
         },
         {
-          "image_file": "Mega_Minion_Mute.webp",
+          "image_file": "12_emote_barbarian_sword.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "😍",
+            "😘"
           ]
         },
         {
-          "image_file": "Mother_Witch_Cook.webp",
+          "image_file": "12_emote_princess_peace.webp",
           "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Mother_Witch_Villain.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Night_Witch_Papercut.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Piggy.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Plungered.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Sunrise.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Target.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Tired.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Transmutate.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Witch_Fail.webp",
-          "emojis": [
-            "💔",
-            "👎"
+            "😊",
+            "🙏"
           ]
         }
       ]
     },
-
     {
       "identifier": "13",
-      "name": "Clash Royale 13",
-      "publisher": "Nikunj Rathod",
+      "name": "Clash Royale - Pack 13",
+      "publisher": "Supercell",
       "tray_image_file": "tray_goblin.png",
-      "publisher_email": "nikunjrathod3011@gmail.com",
-      "publisher_website": "nikunj3011.github.io",
+      "publisher_email": "",
+      "publisher_website": "https://fankit.supercell.com/",
       "privacy_policy_website": "",
       "license_agreement_website": "",
       "stickers": [
         {
-          "image_file": "Evolved_Skeleton_Sword.webp",
+          "image_file": "13_emote_firecracker_santa.webp",
           "emojis": [
-            "☕",
-            "🙂"
+            "❤️",
+            "😘"
           ]
         },
         {
-          "image_file": "Evolved_Royal_Giant_Angry.webp",
+          "image_file": "13_emote_goblin_dagger.webp",
           "emojis": [
-            "😄",
-            "😀"
+            "😊",
+            "😘"
           ]
         },
         {
-          "image_file": "Evolved_Mortar_Goblin.webp",
+          "image_file": "13_emote_archer_queen_menacing.webp",
           "emojis": [
-            "😆",
+            "😊",
             "😂"
           ]
         },
         {
-          "image_file": "Evolved_Firecracker_Super_Size.webp",
+          "image_file": "13_emote_giant_fight.webp",
           "emojis": [
-            "😩",
-            "😰"
+            "😂",
+            "😘"
           ]
         },
         {
-          "image_file": "Evolved_Barbarian_Power.webp",
+          "image_file": "13_emote_heartbox.webp",
+          "emojis": [
+            "😊",
+            "😭"
+          ]
+        },
+        {
+          "image_file": "13_emote_skeleton_king_mace.webp",
           "emojis": [
             "😭",
-            "💧"
+            "😍"
           ]
         },
         {
-          "image_file": "King_No_WiFi.webp",
+          "image_file": "13_emote_heal_spirit_buddy.webp",
+          "emojis": [
+            "😘",
+            "👍"
+          ]
+        },
+        {
+          "image_file": "13_emote_royal_hog_yawn.webp",
+          "emojis": [
+            "🥰",
+            "🙏"
+          ]
+        },
+        {
+          "image_file": "13_emote_electro_giant_smash.webp",
+          "emojis": [
+            "❤️",
+            "😊"
+          ]
+        },
+        {
+          "image_file": "13_emote_magic_archer_dissent.webp",
+          "emojis": [
+            "👍",
+            "❤️"
+          ]
+        },
+        {
+          "image_file": "13_emote_electro_wizard_fried_.webp",
+          "emojis": [
+            "🥰",
+            "😊"
+          ]
+        },
+        {
+          "image_file": "13_emote_sparky_party.webp",
+          "emojis": [
+            "👍",
+            "😊"
+          ]
+        },
+        {
+          "image_file": "13_emote_rabbit_dab.webp",
+          "emojis": [
+            "❤️",
+            "🥰"
+          ]
+        },
+        {
+          "image_file": "13_emote_firecracker_heart.webp",
+          "emojis": [
+            "❤️",
+            "😂"
+          ]
+        },
+        {
+          "image_file": "13_emote_ice_wizard_christmas.webp",
+          "emojis": [
+            "👍",
+            "😭"
+          ]
+        },
+        {
+          "image_file": "13_emote_mini_pekka_pancake_03.webp",
+          "emojis": [
+            "🙏",
+            "😭"
+          ]
+        },
+        {
+          "image_file": "13_emote_king_cry.webp",
+          "emojis": [
+            "😊",
+            "🤣"
+          ]
+        },
+        {
+          "image_file": "13_emote_golem_flex.webp",
+          "emojis": [
+            "😭",
+            "🥰"
+          ]
+        },
+        {
+          "image_file": "13_emote_ice_wizard_dancer.webp",
+          "emojis": [
+            "😘",
+            "😂"
+          ]
+        },
+        {
+          "image_file": "13_emote_ice_wizard_sweat.webp",
+          "emojis": [
+            "😭",
+            "👍"
+          ]
+        },
+        {
+          "image_file": "13_emote_mini_pekka_pancake_02.webp",
           "emojis": [
             "😍",
-            "♥"
+            "🤣"
           ]
         },
         {
-          "image_file": "Skeleton_King_Rock.webp",
+          "image_file": "13_emote_night_witch_bat.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "🤣",
+            "🥰"
           ]
         },
         {
-          "image_file": "Rascals_Love_Gum.webp",
+          "image_file": "13_emote_royal_giant_cannon.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "❤️",
+            "😍"
           ]
         },
         {
-          "image_file": "Golden_Knight_Rock.webp",
+          "image_file": "13_emote_bomber_fuse.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "😭",
+            "👍"
           ]
         },
         {
-          "image_file": "Golden_Knight_Hairspin.webp",
+          "image_file": "13_emote_mega_knight_thumbs_up.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "😂",
+            "🤣"
           ]
         },
         {
-          "image_file": "Battle_Healer_Rainbow.webp",
+          "image_file": "13_emote_valkyrie_thinking.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "🙏",
+            "😘"
           ]
         },
         {
-          "image_file": "Archer_Queen_Rock.webp",
+          "image_file": "13_emote_king_emperor.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "😂",
+            "😊"
+          ]
+        },
+        {
+          "image_file": "13_emote_goblin_waiting.webp",
+          "emojis": [
+            "😊",
+            "😂"
+          ]
+        },
+        {
+          "image_file": "13_emote_goblin_rockstar.webp",
+          "emojis": [
+            "😂",
+            "🥰"
+          ]
+        },
+        {
+          "image_file": "13_emote_princess_thumbs_up.webp",
+          "emojis": [
+            "🙏",
+            "🥰"
           ]
         }
       ]
     },
-
     {
       "identifier": "14",
-      "name": "Clash Royale 14",
-      "publisher": "Nikunj Rathod",
+      "name": "Clash Royale - Pack 14",
+      "publisher": "Supercell",
       "tray_image_file": "tray_goblin.png",
-      "publisher_email": "nikunjrathod3011@gmail.com",
-      "publisher_website": "nikunj3011.github.io",
+      "publisher_email": "",
+      "publisher_website": "https://fankit.supercell.com/",
       "privacy_policy_website": "",
       "license_agreement_website": "",
       "stickers": [
         {
-          "image_file": "Barbarian_Clash-A-Rama_Pecs.webp",
+          "image_file": "14_emote_goblin_rocket_ride.webp",
           "emojis": [
-            "☕",
-            "🙂"
-          ]
-        },
-        {
-          "image_file": "Evolved_Archer_Arrow.webp",
-          "emojis": [
-            "😄",
-            "😀"
-          ]
-        },
-        {
-          "image_file": "Evolved_Bat_Spin.webp",
-          "emojis": [
-            "😆",
+            "😊",
             "😂"
           ]
         },
         {
-          "image_file": "Evolved_Knight_Arrow.webp",
+          "image_file": "14_emote_barbarian_pixel_donkey_kong.webp",
           "emojis": [
-            "😩",
-            "😰"
+            "👍",
+            "😘"
           ]
         },
         {
-          "image_file": "Evolved_Royal_Recruit_Wake_Up.webp",
+          "image_file": "14_emote_barbarian_watching_you.webp",
+          "emojis": [
+            "❤️",
+            "👍"
+          ]
+        },
+        {
+          "image_file": "14_emote_king_pixelated_laugh.webp",
+          "emojis": [
+            "😍",
+            "🤣"
+          ]
+        },
+        {
+          "image_file": "14_emote_giant_skeleton_jaw.webp",
+          "emojis": [
+            "🤣",
+            "😍"
+          ]
+        },
+        {
+          "image_file": "14_emote_royal_hog_christmas_02.webp",
+          "emojis": [
+            "😊",
+            "❤️"
+          ]
+        },
+        {
+          "image_file": "14_emote_royal_ghost_cry.webp",
+          "emojis": [
+            "❤️",
+            "👍"
+          ]
+        },
+        {
+          "image_file": "14_emote_prince_mustache.webp",
+          "emojis": [
+            "😘",
+            "🥰"
+          ]
+        },
+        {
+          "image_file": "14_emote_night_witch_shrug.webp",
+          "emojis": [
+            "🤣",
+            "😘"
+          ]
+        },
+        {
+          "image_file": "14_emote_night_witch_hog.webp",
+          "emojis": [
+            "🙏",
+            "👍"
+          ]
+        },
+        {
+          "image_file": "14_emote_ice_golem_smash.webp",
+          "emojis": [
+            "😊",
+            "😘"
+          ]
+        },
+        {
+          "image_file": "14_emote_goblin_gob_arian.webp",
+          "emojis": [
+            "😂",
+            "🙏"
+          ]
+        },
+        {
+          "image_file": "14_emote_log.webp",
+          "emojis": [
+            "😂",
+            "👍"
+          ]
+        },
+        {
+          "image_file": "14_emote_night_witch_catrina.webp",
+          "emojis": [
+            "😘",
+            "🥰"
+          ]
+        },
+        {
+          "image_file": "14_emote_goblin_tongue.webp",
           "emojis": [
             "😭",
-            "💧"
+            "😂"
           ]
         },
         {
-          "image_file": "Hog_Rider_Clash-A-Rama_Cycle.webp",
+          "image_file": "14_emote_hog_rider_confused.webp",
+          "emojis": [
+            "🥰",
+            "👍"
+          ]
+        },
+        {
+          "image_file": "14_emote_goblin_confused_02.webp",
+          "emojis": [
+            "🤣",
+            "👍"
+          ]
+        },
+        {
+          "image_file": "14_emote_goblin_laugh.webp",
+          "emojis": [
+            "👍",
+            "😂"
+          ]
+        },
+        {
+          "image_file": "14_emote_archer_slowmo.webp",
+          "emojis": [
+            "🤣",
+            "👍"
+          ]
+        },
+        {
+          "image_file": "14_emote_mini_pekka_pouring_cup.webp",
+          "emojis": [
+            "🙏",
+            "😂"
+          ]
+        },
+        {
+          "image_file": "14_emote_goblin_love.webp",
+          "emojis": [
+            "❤️",
+            "😂"
+          ]
+        },
+        {
+          "image_file": "14_emote_fire_spirit_extinguished.webp",
+          "emojis": [
+            "😘",
+            "👍"
+          ]
+        },
+        {
+          "image_file": "14_emote_skeleton_dragon_sweat.webp",
+          "emojis": [
+            "😊",
+            "🙏"
+          ]
+        },
+        {
+          "image_file": "14_emote_king_pixelated_fist.webp",
+          "emojis": [
+            "🥰",
+            "😊"
+          ]
+        },
+        {
+          "image_file": "14_emote_mother_witch_knitting.webp",
+          "emojis": [
+            "❤️",
+            "😘"
+          ]
+        },
+        {
+          "image_file": "14_emote_dart_goblin_backfire.webp",
+          "emojis": [
+            "😂",
+            "🥰"
+          ]
+        },
+        {
+          "image_file": "14_emote_princess_yarn.webp",
           "emojis": [
             "😍",
-            "♥"
+            "😂"
           ]
         },
         {
-          "image_file": "King_Chess_Check.webp",
+          "image_file": "14_emote_arrow_three_crown.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "😂",
+            "😊"
           ]
         },
         {
-          "image_file": "King_Chess_Quit.webp",
+          "image_file": "14_emote_bowler_basketball.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "👍",
+            "😭"
           ]
         },
         {
-          "image_file": "King_Chess_Think.webp",
+          "image_file": "14_emote_royal_hog_booty_dance.webp",
           "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "King_Clap.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "King_Clash-A-Rama_Alarm_Clock.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "King_Red_Button.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "King_Unfold.webp",
-          "emojis": [
-            "😍",
-            "♥"
-          ]
-        },
-        {
-          "image_file": "Mega_Minion_Mute.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Mother_Witch_Cook.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Mother_Witch_Villain.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Night_Witch_Papercut.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Witch_Fail.webp",
-          "emojis": [
-            "💔",
-            "👎"
+            "❤️",
+            "😭"
           ]
         }
       ]
     },
-
     {
       "identifier": "15",
-      "name": "Clash Royale 15",
-      "publisher": "Nikunj Rathod",
+      "name": "Clash Royale - Pack 15",
+      "publisher": "Supercell",
       "tray_image_file": "tray_goblin.png",
-      "publisher_email": "nikunjrathod3011@gmail.com",
-      "publisher_website": "nikunj3011.github.io",
+      "publisher_email": "",
+      "publisher_website": "https://fankit.supercell.com/",
       "privacy_policy_website": "",
       "license_agreement_website": "",
       "stickers": [
         {
-          "image_file": "Cannoneer_Lever.webp",
+          "image_file": "15_emote_skeleton_idea.webp",
           "emojis": [
-            "☕",
-            "🙂"
+            "🙏",
+            "🥰"
           ]
         },
         {
-          "image_file": "Cannoneer_Pyro.webp",
+          "image_file": "15_emote_royal_hog_christmas_01.webp",
           "emojis": [
-            "😄",
-            "😀"
-          ]
-        },
-        {
-          "image_file": "Evolved_Archer_Braid.webp",
-          "emojis": [
-            "😆",
+            "🥰",
             "😂"
           ]
         },
         {
-          "image_file": "Evolved_Bomber_Boom_Glasses.webp",
+          "image_file": "15_emote_goblin_micdrop.webp",
           "emojis": [
-            "😩",
-            "😰"
+            "❤️",
+            "🥰"
           ]
         },
         {
-          "image_file": "Evolved_Bomber_Heart.webp",
+          "image_file": "15_emote_cannon_sweat.webp",
+          "emojis": [
+            "😊",
+            "❤️"
+          ]
+        },
+        {
+          "image_file": "15_emote_elixir_golem_angry.webp",
+          "emojis": [
+            "👍",
+            "🥰"
+          ]
+        },
+        {
+          "image_file": "15_emote_elite_barbarian_fight.webp",
           "emojis": [
             "😭",
-            "💧"
+            "🙏"
           ]
         },
         {
-          "image_file": "Evolved_Ice_Spirit_King_Freeze.webp",
+          "image_file": "15_emote_princess_deal_with_it.webp",
+          "emojis": [
+            "😂",
+            "😊"
+          ]
+        },
+        {
+          "image_file": "15_emote_goblin_party.webp",
+          "emojis": [
+            "😘",
+            "😭"
+          ]
+        },
+        {
+          "image_file": "15_emote_elixir_golem_candles.webp",
+          "emojis": [
+            "😘",
+            "😍"
+          ]
+        },
+        {
+          "image_file": "15_emote_phoenix_munch.webp",
+          "emojis": [
+            "🤣",
+            "😂"
+          ]
+        },
+        {
+          "image_file": "15_emote_goblin_confused_01.webp",
+          "emojis": [
+            "🙏",
+            "👍"
+          ]
+        },
+        {
+          "image_file": "15_emote_mini_pekka_pancake_sword.webp",
+          "emojis": [
+            "😘",
+            "😍"
+          ]
+        },
+        {
+          "image_file": "15_emote_lava_hound_migrane.webp",
           "emojis": [
             "😍",
-            "♥"
+            "😭"
           ]
         },
         {
-          "image_file": "Evolved_Ice_Spirit_Sword_Freeze.webp",
+          "image_file": "15_emote_archer_clearing_arrowhead.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "😊",
+            "👍"
           ]
         },
         {
-          "image_file": "Evolved_Valkyrie_Axe_Rise.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Evolved_Valkyrie_Hair_Spin.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Evolved_Valkyrie_Reveal.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Evolved_Wall_Breakers_Kamikaza.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Evolved_Wall_Breakers_Love_Apocalypse.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Goblin_Boohoo.webp",
+          "image_file": "15_emote_fire_spirit_candle_6.webp",
           "emojis": [
             "😍",
-            "♥"
+            "😂"
           ]
         },
         {
-          "image_file": "Goblin_Grinch.webp",
+          "image_file": "15_emote_goblin_crl.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "👍",
+            "😭"
           ]
         },
         {
-          "image_file": "Little_Prince_Attack.webp",
+          "image_file": "15_emote_fisherman_suprised.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "😍",
+            "😭"
           ]
         },
         {
-          "image_file": "Little_Prince_Taunt.webp",
+          "image_file": "15_emote_skeleton_dragon_nr1.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "👍",
+            "😍"
           ]
         },
         {
-          "image_file": "Lumberjack_Cheers.webp",
+          "image_file": "15_emote_bat_heart.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "😂",
+            "🤣"
           ]
         },
         {
-          "image_file": "Lumberjack_Dance.webp",
+          "image_file": "15_emote_executioner_love.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "😭",
+            "🤣"
+          ]
+        },
+        {
+          "image_file": "15_emote_goblin_trophy.webp",
+          "emojis": [
+            "🤣",
+            "🙏"
+          ]
+        },
+        {
+          "image_file": "15_emote_goblin_crl_2019.webp",
+          "emojis": [
+            "👍",
+            "🥰"
+          ]
+        },
+        {
+          "image_file": "15_emote_miner_love.webp",
+          "emojis": [
+            "🤣",
+            "🥰"
+          ]
+        },
+        {
+          "image_file": "15_emote_goblin_anchored.webp",
+          "emojis": [
+            "😘",
+            "😊"
+          ]
+        },
+        {
+          "image_file": "15_emote_hog_rider_golden.webp",
+          "emojis": [
+            "👍",
+            "❤️"
+          ]
+        },
+        {
+          "image_file": "15_emote_mighty_miner_awesome.webp",
+          "emojis": [
+            "🤣",
+            "👍"
+          ]
+        },
+        {
+          "image_file": "15_emote_hog_rider_santa.webp",
+          "emojis": [
+            "😂",
+            "🙏"
+          ]
+        },
+        {
+          "image_file": "15_emote_wizard_disco_01.webp",
+          "emojis": [
+            "🥰",
+            "❤️"
+          ]
+        },
+        {
+          "image_file": "15_emote_monk_01.webp",
+          "emojis": [
+            "🙏",
+            "🥰"
+          ]
+        },
+        {
+          "image_file": "15_emote_hog_snowball_christmas.webp",
+          "emojis": [
+            "😘",
+            "🤣"
           ]
         }
       ]
     },
-
     {
       "identifier": "16",
-      "name": "Clash Royale 16",
-      "publisher": "Nikunj Rathod",
+      "name": "Clash Royale - Pack 16",
+      "publisher": "Supercell",
       "tray_image_file": "tray_goblin.png",
-      "publisher_email": "nikunjrathod3011@gmail.com",
-      "publisher_website": "nikunj3011.github.io",
+      "publisher_email": "",
+      "publisher_website": "https://fankit.supercell.com/",
       "privacy_policy_website": "",
       "license_agreement_website": "",
       "stickers": [
         {
-          "image_file": "Cannoneer_Boom.webp",
+          "image_file": "16_emote_giant_thumbs_up.webp",
           "emojis": [
-            "☕",
-            "🙂"
+            "😭",
+            "👍"
           ]
         },
         {
-          "image_file": "Dagger_Duchess_Bored.webp",
+          "image_file": "16_emote_night_witch_catrina_02.webp",
           "emojis": [
-            "😄",
-            "😀"
+            "❤️",
+            "😍"
           ]
         },
         {
-          "image_file": "Dagger_Duchess_Full_House.webp",
+          "image_file": "16_emote_archer_fail.webp",
           "emojis": [
-            "😆",
+            "❤️",
+            "🥰"
+          ]
+        },
+        {
+          "image_file": "16_emote_hog_scream.webp",
+          "emojis": [
+            "❤️",
+            "🥰"
+          ]
+        },
+        {
+          "image_file": "16_emote_archer_mad.webp",
+          "emojis": [
+            "😍",
+            "😭"
+          ]
+        },
+        {
+          "image_file": "16_emote_royal_hog_knitting.webp",
+          "emojis": [
+            "😊",
+            "🙏"
+          ]
+        },
+        {
+          "image_file": "16_emote_log_love.webp",
+          "emojis": [
+            "😍",
+            "🤣"
+          ]
+        },
+        {
+          "image_file": "16_emote_ice_wizard.webp",
+          "emojis": [
+            "❤️",
+            "😭"
+          ]
+        },
+        {
+          "image_file": "16_emote_goblin_excited.webp",
+          "emojis": [
+            "😭",
             "😂"
           ]
         },
         {
-          "image_file": "Dagger_Duchess_No_Love.webp",
+          "image_file": "16_emote_pony_charge.webp",
           "emojis": [
-            "😩",
-            "😰"
+            "😂",
+            "😍"
           ]
         },
         {
-          "image_file": "Electro_Giant_Party_Cake.webp",
+          "image_file": "16_emote_golem_fist.webp",
+          "emojis": [
+            "🥰",
+            "😘"
+          ]
+        },
+        {
+          "image_file": "16_emote_chicken_crown.webp",
           "emojis": [
             "😭",
-            "💧"
+            "😘"
           ]
         },
         {
-          "image_file": "Electro_Giant_Zap_Drink.webp",
+          "image_file": "16_emote_skeleton_mariachi.webp",
+          "emojis": [
+            "🙏",
+            "👍"
+          ]
+        },
+        {
+          "image_file": "16_emote_hogs_scream.webp",
+          "emojis": [
+            "🙏",
+            "😊"
+          ]
+        },
+        {
+          "image_file": "16_emote_dark_prince_cry.webp",
+          "emojis": [
+            "🥰",
+            "🙏"
+          ]
+        },
+        {
+          "image_file": "16_emote_wizard_disco_02.webp",
+          "emojis": [
+            "🙏",
+            "😘"
+          ]
+        },
+        {
+          "image_file": "16_emote_dart_goblin_confetti.webp",
+          "emojis": [
+            "👍",
+            "🥰"
+          ]
+        },
+        {
+          "image_file": "16_emote_bat_confused.webp",
+          "emojis": [
+            "🤣",
+            "😭"
+          ]
+        },
+        {
+          "image_file": "16_emote_electro_giant_confused.webp",
+          "emojis": [
+            "😂",
+            "❤️"
+          ]
+        },
+        {
+          "image_file": "16_emote_bomber_newyear_2020.webp",
+          "emojis": [
+            "🥰",
+            "👍"
+          ]
+        },
+        {
+          "image_file": "16_emote_royal_hog_tongue.webp",
           "emojis": [
             "😍",
-            "♥"
+            "😘"
           ]
         },
         {
-          "image_file": "Elixir_Golem_Easter_Eggs.webp",
+          "image_file": "16_emote_mini_pekka_pancake.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "🙏",
+            "🤣"
           ]
         },
         {
-          "image_file": "Ghost_King_Not_Pass.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Goblin_Zap_Dance.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "Hog_Rider_Think.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "King_Darkspell.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "King_Squad_Baby.webp",
-          "emojis": [
-            "💔",
-            "👎"
-          ]
-        },
-        {
-          "image_file": "King_Squad_Spiral.webp",
+          "image_file": "16_emote_king_tv_royale.webp",
           "emojis": [
             "😍",
-            "♥"
+            "🙏"
           ]
         },
         {
-          "image_file": "King_Sweating.webp",
+          "image_file": "16_emote_barbarian_laugh.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "🙏",
+            "😊"
           ]
         },
         {
-          "image_file": "King_Zap_Crown.webp",
+          "image_file": "16_emote_elite_barbarian_candy.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "😊",
+            "😂"
           ]
         },
         {
-          "image_file": "PEKKA_Bunny_Suit.webp",
+          "image_file": "16_emote_electro_giant_win.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "😊",
+            "🥰"
           ]
         },
         {
-          "image_file": "Princess_Tell_Me_More.webp",
+          "image_file": "16_emote_sparky_suprise.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "😍",
+            "😭"
           ]
         },
         {
-          "image_file": "Ram_Breaking_In.webp",
+          "image_file": "16_emote_magic_archer_heart.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "😘",
+            "😊"
+          ]
+        },
+        {
+          "image_file": "16_emote_battle_healer_self_heal.webp",
+          "emojis": [
+            "👍",
+            "🥰"
+          ]
+        },
+        {
+          "image_file": "16_emote_king_thumbs_up_01.webp",
+          "emojis": [
+            "🙏",
+            "🤣"
           ]
         }
       ]
     },
-
     {
       "identifier": "17",
-      "name": "Clash Royale 17",
-      "publisher": "Nikunj Rathod",
+      "name": "Clash Royale - Pack 17",
+      "publisher": "Supercell",
       "tray_image_file": "tray_goblin.png",
-      "publisher_email": "nikunjrathod3011@gmail.com",
-      "publisher_website": "nikunj3011.github.io",
+      "publisher_email": "",
+      "publisher_website": "https://fankit.supercell.com/",
       "privacy_policy_website": "",
       "license_agreement_website": "",
       "stickers": [
         {
-          "image_file": "Bat_hanging.webp",
+          "image_file": "17_emote_mini_pekka_furious.webp",
           "emojis": [
-            "☕",
-            "🙂"
+            "😘",
+            "🥰"
           ]
         },
         {
-          "image_file": "Bowler_Sus.webp",
+          "image_file": "17_emote_elixir_golem_party.webp",
           "emojis": [
-            "😄",
-            "😀"
+            "🙏",
+            "😊"
           ]
         },
         {
-          "image_file": "Cannon_Royale_Giant.webp",
+          "image_file": "17_emote_dark_prince_helmet.webp",
           "emojis": [
-            "😆",
+            "😭",
+            "🤣"
+          ]
+        },
+        {
+          "image_file": "17_emote_battle_healer_cake.webp",
+          "emojis": [
+            "😂",
+            "🙏"
+          ]
+        },
+        {
+          "image_file": "17_emote_royal_hog_carrot.webp",
+          "emojis": [
+            "🤣",
+            "❤️"
+          ]
+        },
+        {
+          "image_file": "17_emote_mega_knight_ball_clash.webp",
+          "emojis": [
+            "😭",
+            "🤣"
+          ]
+        },
+        {
+          "image_file": "17_emote_mini_pekka_dance.webp",
+          "emojis": [
+            "😂",
+            "🤣"
+          ]
+        },
+        {
+          "image_file": "17_emote_mini_pekka_coconut.webp",
+          "emojis": [
+            "😂",
+            "🙏"
+          ]
+        },
+        {
+          "image_file": "17_emote_battle_ram_tongue.webp",
+          "emojis": [
+            "😘",
+            "😍"
+          ]
+        },
+        {
+          "image_file": "17_emote_royal_hog_lunar_new_year.webp",
+          "emojis": [
+            "😘",
+            "🙏"
+          ]
+        },
+        {
+          "image_file": "17_emote_prince_cup.webp",
+          "emojis": [
+            "😂",
+            "🥰"
+          ]
+        },
+        {
+          "image_file": "17_emote_phoenix_fire.webp",
+          "emojis": [
+            "🤣",
+            "❤️"
+          ]
+        },
+        {
+          "image_file": "17_emote_ram_rider_weight.webp",
+          "emojis": [
+            "🥰",
             "😂"
           ]
         },
         {
-          "image_file": "Goblin_Barrel_Evo_Dance.webp",
-          "emojis": [
-            "😩",
-            "😰"
-          ]
-        },
-        {
-          "image_file": "Goblin_Queen_Anger.webp",
-          "emojis": [
-            "😭",
-            "💧"
-          ]
-        },
-        {
-          "image_file": "Goblin_Queen_Crying.webp",
+          "image_file": "17_emote_balloon.webp",
           "emojis": [
             "😍",
-            "♥"
+            "😊"
           ]
         },
         {
-          "image_file": "Goblin_Queen_Laughing.webp",
+          "image_file": "17_emote_royal_ghost_diamond.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "😊",
+            "🥰"
           ]
         },
         {
-          "image_file": "Goblin_Queen_Thumbs_Down.webp",
+          "image_file": "17_emote_royal_giant_letdown.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "👍",
+            "😍"
           ]
         },
         {
-          "image_file": "King_Hide.webp",
+          "image_file": "17_emote_royal_hog_festive.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "🤣",
+            "❤️"
           ]
         },
         {
-          "image_file": "Little_Prince_Wink.webp",
+          "image_file": "17_emote_bowler_santa.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "❤️",
+            "😭"
           ]
         },
         {
-          "image_file": "Wizar_Evo_Magic.webp",
+          "image_file": "17_emote_hog_rider_cheering.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "🙏",
+            "😍"
           ]
         },
         {
-          "image_file": "Wizard_Evo_Kame.webp",
+          "image_file": "17_emote_rabbit_thumbs_up.webp",
           "emojis": [
-            "💔",
-            "👎"
+            "😍",
+            "😘"
+          ]
+        },
+        {
+          "image_file": "17_emote_fisherman_wet.webp",
+          "emojis": [
+            "🥰",
+            "❤️"
+          ]
+        },
+        {
+          "image_file": "17_emote_hands_epic_high_five.webp",
+          "emojis": [
+            "😂",
+            "🤣"
+          ]
+        },
+        {
+          "image_file": "17_emote_wizard_confused.webp",
+          "emojis": [
+            "😂",
+            "👍"
+          ]
+        },
+        {
+          "image_file": "17_emote_goblin_drill.webp",
+          "emojis": [
+            "😘",
+            "😂"
+          ]
+        },
+        {
+          "image_file": "17_emote_elixir_golem.webp",
+          "emojis": [
+            "🥰",
+            "😭"
+          ]
+        },
+        {
+          "image_file": "17_emote_inferno_dragon_fire.webp",
+          "emojis": [
+            "👍",
+            "🙏"
+          ]
+        },
+        {
+          "image_file": "17_emote_minions_excited.webp",
+          "emojis": [
+            "😊",
+            "😭"
+          ]
+        },
+        {
+          "image_file": "17_emote_fisherman_fish_cake.webp",
+          "emojis": [
+            "😘",
+            "🥰"
+          ]
+        },
+        {
+          "image_file": "17_emote_princes_trumpet.webp",
+          "emojis": [
+            "🥰",
+            "😍"
+          ]
+        },
+        {
+          "image_file": "17_emote_baby_dragon_licking.webp",
+          "emojis": [
+            "😍",
+            "🥰"
+          ]
+        }
+      ]
+    },
+    {
+      "identifier": "18",
+      "name": "Clash Royale - Pack 18",
+      "publisher": "Supercell",
+      "tray_image_file": "tray_goblin.png",
+      "publisher_email": "",
+      "publisher_website": "https://fankit.supercell.com/",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "18_emote_goblin_peace.webp",
+          "emojis": [
+            "😊",
+            "🙏"
+          ]
+        },
+        {
+          "image_file": "18_emote_miner_flower.webp",
+          "emojis": [
+            "🤣",
+            "❤️"
+          ]
+        },
+        {
+          "image_file": "18_emote_mother_witch_laugh.webp",
+          "emojis": [
+            "🙏",
+            "😘"
+          ]
+        },
+        {
+          "image_file": "18_emote_skeleton_hands_crossed.webp",
+          "emojis": [
+            "😊",
+            "😭"
+          ]
+        },
+        {
+          "image_file": "18_emote_pumpkin.webp",
+          "emojis": [
+            "😊",
+            "👍"
+          ]
+        },
+        {
+          "image_file": "18_emote_golden_knight.webp",
+          "emojis": [
+            "🤣",
+            "😭"
+          ]
+        },
+        {
+          "image_file": "18_emote_goblin_this_is_fine.webp",
+          "emojis": [
+            "🙏",
+            "❤️"
+          ]
+        },
+        {
+          "image_file": "18_emote_king_10_points.webp",
+          "emojis": [
+            "😘",
+            "😊"
+          ]
+        },
+        {
+          "image_file": "18_emote_loading.webp",
+          "emojis": [
+            "😊",
+            "😂"
+          ]
+        },
+        {
+          "image_file": "18_emote_princess_flex.webp",
+          "emojis": [
+            "🥰",
+            "❤️"
+          ]
+        },
+        {
+          "image_file": "18_emote_princess_tumbs_up_02.webp",
+          "emojis": [
+            "😂",
+            "👍"
+          ]
+        },
+        {
+          "image_file": "18_emote_archer_hood.webp",
+          "emojis": [
+            "👍",
+            "😘"
+          ]
+        },
+        {
+          "image_file": "18_emote_musketeer_hype.webp",
+          "emojis": [
+            "😭",
+            "😘"
+          ]
+        },
+        {
+          "image_file": "18_emote_goblin_sea.webp",
+          "emojis": [
+            "🙏",
+            "🥰"
+          ]
+        },
+        {
+          "image_file": "18_emote_skeleton_snorkel.webp",
+          "emojis": [
+            "❤️",
+            "🙏"
+          ]
+        },
+        {
+          "image_file": "18_emote_goblin_drowning.webp",
+          "emojis": [
+            "🥰",
+            "😍"
+          ]
+        },
+        {
+          "image_file": "18_emote_skeleton_cry.webp",
+          "emojis": [
+            "😂",
+            "😍"
+          ]
+        },
+        {
+          "image_file": "18_emote_goblin_daftpunk.webp",
+          "emojis": [
+            "🙏",
+            "🤣"
+          ]
+        },
+        {
+          "image_file": "18_emote_battle_healer_cake_throw.webp",
+          "emojis": [
+            "😍",
+            "😘"
+          ]
+        },
+        {
+          "image_file": "18_emote_prince_rainbow.webp",
+          "emojis": [
+            "😭",
+            "🥰"
+          ]
+        },
+        {
+          "image_file": "18_emote_musketeer_blow.webp",
+          "emojis": [
+            "🤣",
+            "😭"
+          ]
+        },
+        {
+          "image_file": "18_emote_skeleton_crown.webp",
+          "emojis": [
+            "🥰",
+            "😊"
+          ]
+        },
+        {
+          "image_file": "18_emote_mini_pekka_.webp",
+          "emojis": [
+            "😊",
+            "😍"
+          ]
+        },
+        {
+          "image_file": "18_emote_mega_knight.webp",
+          "emojis": [
+            "👍",
+            "🤣"
+          ]
+        },
+        {
+          "image_file": "18_emote_electro_wizard_idea.webp",
+          "emojis": [
+            "😂",
+            "😘"
+          ]
+        },
+        {
+          "image_file": "18_emote_knight_phew.webp",
+          "emojis": [
+            "👍",
+            "🙏"
+          ]
+        },
+        {
+          "image_file": "18_emote_log_christmas.webp",
+          "emojis": [
+            "😍",
+            "😊"
+          ]
+        },
+        {
+          "image_file": "18_emote_dark_prince_hammer.webp",
+          "emojis": [
+            "🤣",
+            "😘"
+          ]
+        },
+        {
+          "image_file": "18_emote_archer_bow.webp",
+          "emojis": [
+            "😂",
+            "❤️"
+          ]
+        },
+        {
+          "image_file": "18_emote_miner_flame.webp",
+          "emojis": [
+            "😭",
+            "🥰"
+          ]
+        }
+      ]
+    },
+    {
+      "identifier": "19",
+      "name": "Clash Royale - Pack 19",
+      "publisher": "Supercell",
+      "tray_image_file": "tray_goblin.png",
+      "publisher_email": "",
+      "publisher_website": "https://fankit.supercell.com/",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "19_emote_elite_barbarian_love.webp",
+          "emojis": [
+            "😊",
+            "👍"
+          ]
+        },
+        {
+          "image_file": "19_emote_pekka_sword.webp",
+          "emojis": [
+            "😊",
+            "🤣"
+          ]
+        },
+        {
+          "image_file": "19_emote_pekka_balloons.webp",
+          "emojis": [
+            "😘",
+            "😊"
+          ]
+        },
+        {
+          "image_file": "19_emote_ram_rider_01.webp",
+          "emojis": [
+            "🥰",
+            "😍"
+          ]
+        },
+        {
+          "image_file": "19_emote_princess_hongbao.webp",
+          "emojis": [
+            "🙏",
+            "😘"
+          ]
+        },
+        {
+          "image_file": "19_emote_king_belt.webp",
+          "emojis": [
+            "😂",
+            "😊"
+          ]
+        },
+        {
+          "image_file": "19_emote_prince_sun.webp",
+          "emojis": [
+            "❤️",
+            "🙏"
+          ]
+        },
+        {
+          "image_file": "19_emote_lumberjack_cake.webp",
+          "emojis": [
+            "😂",
+            "😍"
+          ]
+        },
+        {
+          "image_file": "19_emote_king_gamer.webp",
+          "emojis": [
+            "😊",
+            "👍"
+          ]
+        },
+        {
+          "image_file": "19_emote_archer_queen_crown.webp",
+          "emojis": [
+            "👍",
+            "😭"
+          ]
+        },
+        {
+          "image_file": "19_emote_giant_eat.webp",
+          "emojis": [
+            "😊",
+            "😍"
+          ]
+        },
+        {
+          "image_file": "19_emote_firecracker_confetti.webp",
+          "emojis": [
+            "😂",
+            "🙏"
+          ]
+        },
+        {
+          "image_file": "19_emote_king_laugh.webp",
+          "emojis": [
+            "🙏",
+            "😍"
+          ]
+        },
+        {
+          "image_file": "19_emote_royal_hog_disturbed.webp",
+          "emojis": [
+            "🥰",
+            "🙏"
+          ]
+        },
+        {
+          "image_file": "19_emote_barbarian_scream.webp",
+          "emojis": [
+            "👍",
+            "🥰"
+          ]
+        },
+        {
+          "image_file": "19_emote_prince_surrender.webp",
+          "emojis": [
+            "😍",
+            "👍"
+          ]
+        },
+        {
+          "image_file": "19_emote_night_witch_love.webp",
+          "emojis": [
+            "👍",
+            "😊"
+          ]
+        },
+        {
+          "image_file": "19_emote_ice_golem_hi.webp",
+          "emojis": [
+            "👍",
+            "❤️"
+          ]
+        },
+        {
+          "image_file": "19_emote_knight_hurray.webp",
+          "emojis": [
+            "🙏",
+            "❤️"
+          ]
+        },
+        {
+          "image_file": "19_emote_bandit_coin.webp",
+          "emojis": [
+            "❤️",
+            "🙏"
+          ]
+        },
+        {
+          "image_file": "19_emote_king_pixel_king_jumping_tower.webp",
+          "emojis": [
+            "😊",
+            "🥰"
+          ]
+        },
+        {
+          "image_file": "19_emote_wizard_flame_on.webp",
+          "emojis": [
+            "❤️",
+            "🤣"
+          ]
+        },
+        {
+          "image_file": "19_emote_electro_dragon_shocked.webp",
+          "emojis": [
+            "🤣",
+            "❤️"
+          ]
+        },
+        {
+          "image_file": "19_emote_electro_spirit.webp",
+          "emojis": [
+            "😘",
+            "😭"
+          ]
+        },
+        {
+          "image_file": "19_emote_barbarian_nutcracker.webp",
+          "emojis": [
+            "😭",
+            "😘"
+          ]
+        },
+        {
+          "image_file": "19_emote_bowler_santa_02.webp",
+          "emojis": [
+            "❤️",
+            "😂"
+          ]
+        },
+        {
+          "image_file": "19_emote_king_pirate.webp",
+          "emojis": [
+            "🙏",
+            "😭"
+          ]
+        },
+        {
+          "image_file": "19_emote_ice_golem_01.webp",
+          "emojis": [
+            "😂",
+            "❤️"
+          ]
+        },
+        {
+          "image_file": "19_emote_goblin_flex.webp",
+          "emojis": [
+            "🤣",
+            "🙏"
+          ]
+        },
+        {
+          "image_file": "19_emote_log_phew.webp",
+          "emojis": [
+            "👍",
+            "😭"
+          ]
+        }
+      ]
+    },
+    {
+      "identifier": "20",
+      "name": "Clash Royale - Pack 20",
+      "publisher": "Supercell",
+      "tray_image_file": "tray_goblin.png",
+      "publisher_email": "",
+      "publisher_website": "https://fankit.supercell.com/",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "20_emote_goblin_costume.webp",
+          "emojis": [
+            "🤣",
+            "🥰"
+          ]
+        },
+        {
+          "image_file": "20_emote_monk_arrow.webp",
+          "emojis": [
+            "😘",
+            "😭"
+          ]
+        },
+        {
+          "image_file": "20_emote_hog_rider_love.webp",
+          "emojis": [
+            "😂",
+            "🤣"
+          ]
+        },
+        {
+          "image_file": "20_emote_sparky_shoot.webp",
+          "emojis": [
+            "😘",
+            "👍"
+          ]
+        },
+        {
+          "image_file": "20_emote_skeleton_dancing.webp",
+          "emojis": [
+            "❤️",
+            "🙏"
+          ]
+        },
+        {
+          "image_file": "20_emote_baby_dragon_egg.webp",
+          "emojis": [
+            "❤️",
+            "😍"
+          ]
+        },
+        {
+          "image_file": "20_emote_monk_defense.webp",
+          "emojis": [
+            "👍",
+            "😊"
+          ]
+        },
+        {
+          "image_file": "20_emote_tesla_high_voltage.webp",
+          "emojis": [
+            "🙏",
+            "😭"
           ]
         }
       ]
     }
-
   ]
 }
-

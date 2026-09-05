@@ -51,6 +51,8 @@ public class StickerPackListActivity extends BaseActivity implements PremiumBill
     ArrayList<StickerPack> stickerPackList;
 
     private AdView mAdView;
+    private FrameLayout adContainer;
+    private boolean bannerRequested;
     private PremiumBillingManager premiumBillingManager;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -95,14 +97,23 @@ public class StickerPackListActivity extends BaseActivity implements PremiumBill
         });
 
 
-        MobileAds.initialize(this, new OnInitializationCompleteListener() {
-            @Override
-            public void onInitializationComplete(@NonNull InitializationStatus initializationStatus) {
+        adContainer = findViewById(R.id.adView);
+    }
 
-            }
-        });
-        //setContentView(R.layout.sticker_packs_list_item);
-        FrameLayout adContainer = findViewById(R.id.adView);
+    private void loadBannerIfEligible() {
+        if (!premiumBillingManager.isEntitlementResolved()) {
+            return;
+        }
+        if (premiumBillingManager.isPremiumUnlocked()) {
+            removeBanner();
+            return;
+        }
+        if (bannerRequested) {
+            return;
+        }
+        bannerRequested = true;
+        adContainer.setVisibility(View.VISIBLE);
+        MobileAds.initialize(this, initializationStatus -> { });
         adContainer.post(() -> {
             float density = getResources().getDisplayMetrics().density;
             int widthPixels = adContainer.getWidth();
@@ -119,6 +130,18 @@ public class StickerPackListActivity extends BaseActivity implements PremiumBill
                     FrameLayout.LayoutParams.WRAP_CONTENT));
             mAdView.loadAd(new AdRequest.Builder().build());
         });
+    }
+
+    private void removeBanner() {
+        bannerRequested = false;
+        if (mAdView != null) {
+            mAdView.destroy();
+            mAdView = null;
+        }
+        if (adContainer != null) {
+            adContainer.removeAllViews();
+            adContainer.setVisibility(View.GONE);
+        }
     }
 
     @Override
@@ -174,6 +197,7 @@ public class StickerPackListActivity extends BaseActivity implements PremiumBill
     @Override
     public void onPremiumStateChanged() {
         // The main list only previews packs; entitlement actions live on the details screen.
+        loadBannerIfEligible();
     }
 
     @Override

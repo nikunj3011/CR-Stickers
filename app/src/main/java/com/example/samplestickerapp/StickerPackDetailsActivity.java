@@ -73,6 +73,7 @@ public class StickerPackDetailsActivity extends BaseActivity implements PremiumB
     private WhiteListCheckAsyncTask whiteListCheckAsyncTask;
     private InterstitialAd mInterstitialAd;
     private boolean interstitialShown;
+    private boolean interstitialRequested;
     private AdRequest adRequest;
     private PremiumBillingManager premiumBillingManager;
     private boolean isWhitelisted;
@@ -121,10 +122,15 @@ public class StickerPackDetailsActivity extends BaseActivity implements PremiumB
         premiumBillingManager.addListener(this);
         premiumBillingManager.connectAndRestore();
         toolbar.setTitle(showUpButton ? R.string.title_activity_sticker_pack_details_multiple_pack : R.string.title_activity_sticker_pack_details_single_pack);
-        MobileAds.initialize(this, new OnInitializationCompleteListener() {
-            @Override
-            public void onInitializationComplete(InitializationStatus initializationStatus) {}
-        });
+    }
+
+    private void loadInterstitialIfEligible() {
+        if (!premiumBillingManager.isEntitlementResolved() ||
+                premiumBillingManager.isPremiumUnlocked() || interstitialRequested) {
+            return;
+        }
+        interstitialRequested = true;
+        MobileAds.initialize(this, initializationStatus -> { });
         adRequest = new AdRequest.Builder().build();
         InterstitialAd.load(this, getString(R.string.interstitial_ad_unit_id), adRequest,
                 new InterstitialAdLoadCallback() {
@@ -328,6 +334,11 @@ public class StickerPackDetailsActivity extends BaseActivity implements PremiumB
     public void onPremiumStateChanged() {
         if (addButton != null && stickerPack != null) {
             refreshPrimaryAction();
+        }
+        if (premiumBillingManager.isPremiumUnlocked()) {
+            mInterstitialAd = null;
+        } else {
+            loadInterstitialIfEligible();
         }
     }
 
